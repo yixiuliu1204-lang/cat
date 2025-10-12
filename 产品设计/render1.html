@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- <link rel="stylesheet" href="css/icon-font.css" >
+    <link rel="stylesheet" href="css/style.css"> -->
+    <link href="css/cpsj.css" rel="stylesheet"> 
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" >
+
+    <title>catme 产品设计</title>
+  </head>
+  <body>
+      <!-- 首页与右上导航栏 -->
+      <div class="navigation">
+      <!-- 使用伪类 :checked 复选框被选择的时，展示全屏的背景-->
+          <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+          <label for="navi-toggle" class="navigation__button">
+              <span class="navigation__icon">&nbsp;</span>
+          </label>
+          <div class="navigation__background">&nbsp;
+		  </div>
+          <nav class="navigation__nav">
+              <ul class="navigation__list">
+                  <li class="navigation__item"><a href="#01" class="navigation__link"><span>01</span>CatMe</a></li>
+                  <li class="navigation__item"><a href="#02" class="navigation__link"><span>02</span>设计研究</a></li>
+                  <li class="navigation__item"><a href="#03" class="navigation__link"><span>03</span>人物模型和目标</a></li>
+                  <li class="navigation__item"><a href="#section-tours" class="navigation__link"><span>04</span>场景和需求设计</a></li>
+                  <li class="navigation__item"><a href="#05" class="navigation__link"><span>05</span>信息框架</a></li>
+		          <li class="navigation__item"><a href="#06" class="navigation__link"><span>06</span>产品运营</a></li>
+             </ul>
+          </nav>
+      </div>
+      
+      
+      <div class="allc">
+          <section id="01">
+              <header class="header">
+                  <div class="header__logo-box">
+                      <img src="../猫圈/images/maowologo.png" alt="Logo" class="header__logo">
+                  </div>
+                  <div class="header__text-box">
+                      <h1 class="heading-primary">
+                          <span class="heading-primary--main">CATME</span>
+                          <span class="heading-primary--sub">猫窝is where life enjoys</span>
+                      </h1>
+                      <a href="#section-tours" alt="button" class="btn btn--white btn--animated">discover our tours</a>
+                  </div>
+              </header>
+          </section>
+          
+          <section class="section-about" id="02">
+              <div class="u-center-text u-margin-bottom-big">
+		          <h1 class="heading-secondary">产品概念与定位</h1>
+		              <h3 class="heading-tertiary u-margin-bottom-small">
+			          猫窝——辅助养猫一体化app
+			          <br>猫窝是一款面对悦宠群体的、以猫咪档案、猫咪智库、医疗咨询、猫咪商城为核心的辅助养猫一体化平台</h3>
+                  <h1 class="heading-secondary">设计研究
+                  </h1>
+              </div>  
+              <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 about-left">
+                      <h3 class="heading-tertiary u-margin-bottom-small">市场研究</h3>
+				      <div class="paragraphy">
+                          <p>2022年中国宠物市场消费结构特征：</p> 
+				          <p><i class="fa fa-thumbs-o-up"></i>单只宠物年均花费超5千</p>
+				          <p><i class="fa fa-thumbs-o-up"></i>宠物相关消费类型愈发多元</p>
+				      </div>
+                      <a href="#" class="btn-text">Learn more &rarr;</a>
+                  </div>
+                  <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12 about-right">
+                      <div class="composition">
+                          <img src="images/CSR1.jpg"  alt="Photo 1" class="photo-size">                 
+                      </div>
+                  </div>
+              </div>
+		      <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 about-left">
+                      <h3 class="heading-tertiary u-margin-bottom-small">产品需求</h3>
+                      <div class="paragraphy">
+					      <p>猫咪宠物市场占据半壁江山：</p> 
+				          <p><i class="fa fa-thumbs-o-up"></i>以“猫咪”当宠物的人比例为59.5%</p>
+				          <p><i class="fa fa-thumbs-o-up"></i>2023年中国单只宠物年消费5200元</p>
+				      </div>
+                      <a href="#" class="btn-text">Learn more &rarr;</a>
+                  </div>
+                  <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12 about-right">
+                      <div class="composition">
+                          <img src="images/CSR3.jpg" alt="Photo 1" class="photo-size">                 
+                      </div>
+                  </div>
+              </div>
+		      <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 about-left">
+                      <h3 class="heading-tertiary u-margin-bottom-small">用户访谈</h3>
+				          <div class="paragraphy">
+					          <p>中国猫咪市场消费者主旋律：</p> 
+				              <p><i class="fa fa-thumbs-o-up"></i>“悦宠悦己，精致有爱”</p>
+				              <p><i class="fa fa-thumbs-o-up"></i>科学精细地喂养、快乐地陪伴是宗旨</p>
+				          </div>
+                      <a href="#" class="btn-text">Learn more &rarr;</a>
+                  </div>
+                  <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12 about-right">
+                      <div class="composition">
+                          <img src="images/CSR2.jpg" alt="Photo 1" class="photo-size">                 
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+	              <div class="col-1-of-2">
+                      <div class="feature-box">
+                          <i class="fa fa-chrome"></i>
+					      <h3 class="heading-tertiary u-margin-bottom-small">使用动机</h3>
+					      <p class="feature-box__text">
+					      <ul>
+						      <li>医疗：提供线上医疗咨询与药品配送</li>
+						      <li>碎片学习：在宠物智库中学习宠物科普知识，喂养指南</li>
+						      <li>日常提醒：日常喂养注意提醒及重大事项倒数计时提醒，精确有效</li>
+						      <li>商城：提供国内外著名宠物品牌猫粮，另有生骨肉配送，方便快捷，科学卫生</li>
+				          </ul>
+                          </p>
+                      </div>
+                  </div>
+                  <div class="col-1-of-4">
+                      <div class="feature-box">
+                          <i class="fa fa-connectdevelop"></i>
+                          <h3 class="heading-tertiary u-margin-bottom-small">使用时间</h3>
+                          <p class="feature-box__text">
+                          <ul>
+						      <li>碎片化时间浏览，在休息时间浏览智库信息</li>
+						      <li>日常记录使用，在为宠物记录健康信息及提醒事项时浏览</li>
+				          </ul>
+                          </p>
+                      </div>
+                  </div>
+       -          <div class="col-1-of-4">
+                      <div class="feature-box">
+                          <i class="fa fa-joomla"></i>
+                          <h3 class="heading-tertiary u-margin-bottom-small">现有不足</h3>
+                          <p class="feature-box__text">
+                          <ul>
+						      <li>日常记录：提醒方式太过单调。</li>
+						      <li>商城：精细饮食种类太少。</li>
+				          </ul>
+                          </p>
+                      </div>
+                  </div>
+                  <div class="col-1-of-2">
+                      <div class="feature-box">
+                          <i class="fa fa-odnoklassniki"></i>
+                          <h3 class="heading-tertiary u-margin-bottom-small"></h3>
+                          <p class="feature-box__text">
+                          <ul>
+						      <li>商城优化：1.希望能与宠物服务机构达成合作，为宠物保健（猫耳、猫眼、口腔等）等提供优惠套餐 2.提供多种科学配比喂养饮食，如烘焙主粮、鸡胸肉冻干等健康食物</li>
+						      <li>页面设计：在app后续开发中加入虚拟养宠等方式，提高用户积极性</li>
+				          </ul>
+                          </p>
+                      </div>
+                  </div>
+              </div>
+	          <div class="row">
+		          <h3 class="heading-tertiary u-margin-bottom-small">专家访谈</h3>
+		              <div class="col-1-of-2">
+			              <div class="feature-box">
+                              <h3 class="heading-tertiary u-margin-bottom-small">1.猫圈资源整合，线上线下平台一体化发展</h3>
+                              <p class="feature-box__text">
+                              辅助养猫平台需要积极联系合作，整合线上线下资源，以线上平台导流线下机构的模式，刺激用户需求，深化产品布局。
+                              </p>
+                          </div>
+                      </div>					
+			          <div class="col-1-of-2">
+				          <div class="feature-box2">
+                              <h3 class="heading-tertiary u-margin-bottom-small">2.食品精细化研发</h3>
+                              <p class="feature-box__text">
+                               需要满足消费者所面临“千猫千面”的需求，围绕生命阶段、功能需求和体型等进行精细化研发，多维度满足定制化需求将成为趋势。
+                              </p>
+                          </div>
+                      </div> 
+              </div> 
+              <div class="row">
+                  <div class="col-1-of-3">
+                      <h3 class="heading-tertiary u-margin-bottom-small">竞品分析-猫窝VS甜宠</h3>
+                      <p class="paragraphy">范围层分析——产品核心策略</p> 
+                  </div>
+                  <div class="col-1-of-12">
+                      <div class="composition">
+                          <img src="images/CSR4.jpg" alt="Photo 1" class="photo-size">               
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="story">
+                      <figure class="story__shape">
+                        <img src="../猫圈/images/1.jpg" alt="people on tour" class="story__img">
+                        <figcaption class="story__caption">核心问题</figcaption>
+                      </figure>
+                      <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small h31"> 如何帮助铲屎官更好地照顾猫咪，与猫咪双向奔赴，提升幸福感，成为合格的铲屎官?<br>
+                          <br>
+                          <br>
+                          如何提供更高效、全面、权威的品质服务，博得广大养猫用户信赖？<br>
+                          <br>
+                          <br>
+                          如何打破当前养猫服务市场的分散、信息不对称及非标准化问题？ </h3>
+                      </div>
+                    </div>
+              </div>
+              <div class="row">
+                    <div class="story">
+                        <figure class="story__shape">
+                           <img src="../猫圈/images/2.jpg" alt="people on tour" class="story__img">
+                           <figcaption class="story__caption">产品愿景</figcaption>
+                        </figure>
+                           <div class="story__text">
+                              <h3 class="heading-tertiary u-margin-bottom-small h31" ><br>
+                              &nbsp;&nbsp;&nbsp;为猫咪培养合格的铲屎官。致力于成为最受养猫用户欢迎的综合性养猫服务<br>
+                              <br>
+                              平台，打造便捷、全面、优质、可靠的在线养猫服务生态圈，提升铲屎官和猫咪的<br>
+                              <br>
+                              生活幸福感，为猫咪健康成长保驾护航。<br>
+                              <br>
+                              </h3>
+                          </div>
+                    </div>
+               </div>
+
+
+          </section>
+
+
+	      <!--人物模型部分-->
+          <section class="section-features" id="03">
+		      <div class="row">
+			      <h1 class="heading-secondary">用户模型构建</h1>
+		          <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2">
+			          <p>猫窝研发团队采取Alan Cooper在《About Face：交互设计精髓》一书中提到的研究用户的系统化方法，即用户模型（Persona）。猫窝的用户模型基于对团队用户的访谈、观察与统计分析建立，严谨可靠。</p>
+				      <blockquote>
+			              <p><em>FEATURES:</em></p>
+			              <ul>
+				              <li><em>&nbsp; &nbsp; 对用户的访谈和观察，根据角色对访谈对象分组</em>
+						          <div class="model-procedures">
+							          <p>&nbsp; &nbsp;&nbsp; &nbsp;猫窝团队采取随机分层抽样的方法，确定了351个观察访谈样本。根据角色不同，我们将受访者分成私人养猫者与猫舍经营者两组</p>
+								      <p>&nbsp; &nbsp;&nbsp; &nbsp;女性消费者占比略多于男性；年龄主要集中在21-30岁；消费者呈现高线级城市、高学历、高收入等特征，家庭结构多为三口之家、无孩小两口、单身女性；近半数人群养宠时间为1-2年；日常养宠对健康护理、疾病治疗、疫苗体检、营养保健关注度较多；宠物医院专业医生以及身边养宠好友之间互动是主要的宠物健康信息获取渠道。</p>
+								      <img src="images/CSR5.jpg" alt=""  class="photo-size">
+								      <p>&nbsp; &nbsp;&nbsp; &nbsp;大多数人使用辅助养猫产品主要是为了精确的提供日常注意提醒，比例超过64%；此外，猫咪的健康问题越来越受到重视，有62%的人是为了寻求专业的医疗咨询；56.7%的人是为在商城内购买物品，尤其是商城内的生骨肉饮食。</p>
+								      <p>&nbsp; &nbsp;&nbsp; &nbsp;随着消费理念升级，养猫理念也随之改变，现阶段猫咪健康消费人群养宠时精神和物质两手抓，悦己悦宠。“健康养宠，追求宠物健康成长”是被广泛接受的养宠理念，占比高达32%，位居第一；其次是“讲究卫生，干净养宠”，“快乐养宠，享受过程”。</p>
+								      <img src="images/CSAnimate1.gif" alt="" class="am-size">
+								      <img src="images/CSAnimate2.gif" alt="" class="am-size">	 
+							      </div>
+						      </li>
+						      <li><em>&nbsp; &nbsp; 确定行为变量</em></li>
+						      <li><em>&nbsp; &nbsp; 将访谈主体与确定好的行为变量对应，找出重要的行为模型</em></li>
+						      <li><em>&nbsp; &nbsp; 综合各种特征，阐明目标</em>
+						          <div class="model-procedures">
+							          <p>&nbsp; &nbsp;&nbsp; &nbsp;两个用户模型的重要行为变量如下：</p>
+							      </div>
+							      <div class="col-1-of-2">
+								      <div class="feature-box">
+                                         <h3 class="heading-tertiary u-margin-bottom-small">class 1</h3>
+                                         <p class="feature-box__text">
+                                              少陪伴型养猫-单猫家庭-看重宠物服务-精细微奢养猫-养猫萌新-买猫-为获养猫信息-非技术性养猫
+                                         </p>
+                                      </div>
+                                  </div>					
+							      <div class="col-1-of-2">
+								      <div class="feature-box2">
+                                          <h3 class="heading-tertiary u-margin-bottom-small">class 2</h3>
+                                          <p class="feature-box__text">
+                                              多陪伴型养猫-多猫家庭-看重价格实惠-经济型养猫-养猫老手卖猫-为方便养猫管理-高知技术型养猫
+                                          </p>
+                                      </div>
+                                  </div>
+						      </li>
+						      <li><em>&nbsp; &nbsp; 人物模型完整性、无冗余</em></li>
+						      <li><em>&nbsp; &nbsp; 指定人物模型的类型</em>
+						          <div class="model-procedures">
+							          <p>&nbsp; &nbsp;&nbsp; &nbsp;class 1为主要人物模型，满足广大猫奴轻松、综合、精细养猫的需求；class-2为次要人物模型，满足猫舍部分用户扩大交易，第三方担保的需求。</p>
+							      </div>
+						      </li>
+			              </ul>
+				          <p><em><br></em></p>
+			          </blockquote>
+				  <h4>人物模型</h4>			
+		          </div>
+		          <!-- 人物模型1 主体 -->		
+		          <div class="main">
+      	             <article class="post">
+      		             <div class="primary">
+                             <h2><a href="index.html">陈丹</a></h2>
+                             <p class="post-info"><span>Dan</span> <a href="index.html">Chan</a></p>
+					         <div class="details">
+						         <div class="col-1-of-2">
+					                 <h1>基本信息</h1>
+                                     <p><i class="fa fa-heart"></i>她一个人来大城市打拼，平常的工作节奏很快。每天加班回来看到空荡荡的家，感觉很孤独。养猫这几年很火，她身边的姐妹有养猫，觉得很可爱，她自己也希望养一只猫给我陪伴和温暖。</p>
+                                     <p><i class="fa fa-heart"></i>但她之前没有养过宠物，在网上看了很多信息但觉得又杂又乱，获取全面养猫信息的时间成本太大了，了解猫的各种习性、熟稔猫的日常时间作息对新手来说并非易事。她对现有的猫购买领养、饮食医疗方面忧心忡忡，担心一般线下社区领养流浪猫不正规，可能存在健康问题，也觉得需要科学喂养小猫尝试不同食物的成本略大，且万一不小心猫生病自己因为工作忙没法第一时间带去医院。她既想省心，也想比较精细的养猫。</p>
+						         </div>
+						         <h1>平时与猫咪交互的活动</h1>
+						             <p><i class="fa fa-heart"></i>在B站和抖音浏览萌宠视频</p>
+						             <p><i class="fa fa-heart"></i>深度沉浸手机与电脑媒介，喜欢新鲜事物</p>
+						             <p><i class="fa fa-heart"></i>平常会尝试买猫条喂小区里的流浪猫</p>
+						         <h1>用户目标</h1>
+						             <p><i class="fa fa-heart"></i>反思：想要成为舒适生活、健康快乐的独立女性</p>
+						             <p><i class="fa fa-heart"></i>行为：想在工作赚钱之余养宠</p>
+						             <p><i class="fa fa-heart"></i>本能：获得陪伴感和养成感</p>  
+					         </div>
+                             <p><a class="more" href="index.html">Continue Reading &raquo;</a></p>
+                         </div>
+                         <aside>
+            	             <p class="dateinfo"></p>
+               	             <div class="post-meta">
+                  	             <h4>Details</h4>
+                     	         <ul>
+                                     <li class="user"><a href="#">女性</a></li>
+                                     <li class="time"><a href="#">28岁</a></li>
+                                     <li class="comment"><a href="#">现居杭州</a></li>
+                                     <li class="permalink"><a href="#">211硕士 工作3年</a></li>
+					            	 <li class="comment"><a href="#">互联网企业小白领</a></li>
+						             <li class="comment"><a href="#">未婚未育</a></li>
+                                 </ul>
+					         </div>
+                         </aside>
+		            </article>
+	              </div>
+		          <!-- 人物模型2 主体 -->		
+	              <div class="main">
+			         <article class="post">
+      		         <div class="primary">
+                         <h2><a href="index.html">谭鱼头</a></h2>
+                         <p class="post-info"><span>Yutou</span> <a href="index.html">Tan</a></p>
+                         <div class="details">
+						     <div class="col-1-of-2">
+					             <h1>基本信息</h1>
+                                 <p><i class="fa fa-heart"></i>他已经做猫繁育交易工作6年了，猫舍规模逐渐扩大，生意也好了很多。目前我家2只种公，6只种母，3窝共13只猫宝宝，还有一些自己留着不卖的小猫。</p>
+                                 <p><i class="fa fa-heart"></i>他和他老婆还没准备要孩子，家里很多毛孩子已经忙不过来了。除了卖小猫，还卖一些猫相关用品和生骨肉，都是它们小时候用惯吃惯的。但是在B站与抖音等猫交易平台通过直播联系客户也很费劲，没有资质保障，也出过许多运输、喂养等交易问题，不停回答用户的重复性问题也很消耗精力。</p>
+						     </div>
+						     <h1>平时与猫咪交互的活动</h1>
+						         <p><i class="fa fa-heart"></i>管理猫舍的猫生活日常、安排配种、绝育、医疗等重要事项</p>
+						         <p><i class="fa fa-heart"></i>寻找买猫客户并做售后知识服务</p>
+						         <p><i class="fa fa-heart"></i>制作鹌鹑、鸵鸟肉等特殊食材生骨肉售卖</p>
+						     <h1>用户目标</h1>
+						         <p><i class="fa fa-heart"></i>反思：想要成为有经济实力、且有猫宠圈知名度的成功人士</p>
+						        <p><i class="fa fa-heart"></i>行为：开猫舍卖猫和相关用品</p>
+						        <p><i class="fa fa-heart"></i>本能：想要获得盈利，及从业猫宠的快乐感</p>            
+					      </div>
+                          <p><a class="more" href="index.html">Continue Reading &raquo;</a></p>
+                     </div>
+                     <aside>
+            	         <p class="dateinfo1"></p>
+               	         <div class="post-meta">
+                  	         <h4>Details</h4>
+                     	     <ul>
+                                 <li class="user"><a href="#">男性</a></li>
+                                 <li class="time"><a href="#">34岁</a></li>
+                                 <li class="comment"><a href="#">现居广东</a></li>
+                                 <li class="permalink"><a href="#">一本毕业</a></li>
+						         <li class="comment"><a href="#">猫舍繁育人</a></li>
+						         <li class="comment"><a href="#">已婚未育</a></li>
+                             </ul>
+					     </div>
+                    </aside>
+		            </article>
+                  </div>		 
+		      <div class="row">
+		          <h3 class="heading-tertiary u-margin-bottom-small">用户模型同理心地图</h3>
+		              <div class="col-1-of-2">
+			              <div class="feature-box">
+                              <h3 class="heading-tertiary u-margin-bottom-small">1.“小猫是给我陪伴、放松身心的毛孩子”</h3>
+                              <img src="images/S22.png" alt="" class="photo-size">
+                          </div>
+                      </div>					
+			          <div class="col-1-of-2">
+			              <div class="feature-box2">
+                              <h3 class="heading-tertiary u-margin-bottom-small">2.“我想帮助每一位猫奴拥有理想的小猫</h3>
+					          <img src="images/S11.png" alt="" class="photo-size">
+                          </div>
+                      </div> 
+              </div> 
+		      </div>	 
+          </section>
+
+          <section class="section-tours" id="section-tours">
+
+              <div class="u-center-text u-margin-bottom-big">
+                 <h1 class="heading-secondary"> 场景和需求设计 </h1>
+              </div>
+              <h2 class="heading-secondary h21"> 场景故事 </h2>
+              <div class="row" >
+                <div class="st1" >
+                  <div class="card" height="100%!important">
+                    <div class="card__side card__side--front">
+                      <div class="card__picture card__picture--2"> &nbsp; </div>
+                      <h4 class="card__heading"> <span class="card__heading-span card__heading-span--2"> 01 </span> </h4>
+                      <div class="card__details">
+                        <ul>
+                          <li>用户角色：丹贵妃，女，28岁，一位猫咪爱好者和忙碌的上班族，未婚未育</li>
+                          <li>情景描述：丹贵妃工作很忙，白天大部分时间都在公司工作。她非常喜欢猫咪，但由于缺乏时间和经验，担心自己无法很好地照顾猫咪的健康和生活质量。她希望找到一个工具来辅助她既精细又省心地养猫。</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="card__side card__side--back card__side--back-2">
+                      <div class="card__cta">
+                        <div class="card__price-box" >
+                          <div >
+                            <p class="card__price-only" > <strong>故事1:</strong><br>
+                              丹贵妃平时上班时间早九晚六，期间一般不会回家，需要在上班前为猫咪准备吃喝、清理猫砂猫盆。这天她照常起床准备上班，但在一边匆忙洗漱吃饭、
+                              一边处理消息的过程中忘记了准备猫粮和更换猫砂。晚上下班回家，丹贵妃开门便闻到一阵淡臭味，自己的猫咪也叫唤连连，这才想起自己忘记的事情。看着
+                              一片狼藉的猫咪活动区和自己饥肠辘辘的小猫，丹贵妃感到十分愧疚和自责。<br>
+                              （1）用户痛点：<br>
+                              <strong>忘记</strong>为猫咪准备食物和更换猫砂，导致猫咪饥饿和猫砂未清理，引起异味；用户感到愧疚和自责。<br>
+                              （2）解决方案：<br>
+                              <strong>提醒功能</strong>——在需要猫咪准备食物和更换猫砂时，提醒她及时处理。自动化喂猫系统——能够自动智能定时给猫咪提供食物和水。
+                              自动化猫砂箱——及时清理猫砂，避免异味滋生。</p>
+                          </div>
+                          <div >
+                            <p class="card__price-value" > <strong>故事2:</strong><br>
+                              周末，丹贵妃在和小猫玩耍的过程中发现小猫精神不佳，食欲不振，由于缺乏养猫知识和经验，上百度搜索却无法确定原因，猜测各种可能病因后更加慌乱。家中没有储备宠物医药品，附近也没有宠物医院，询问朋友后仍未得到解答，丹贵妃手足无措。<br>
+                              （1）用户痛点：<br>
+                              <strong>医疗方面的痛点</strong>——用户缺乏养猫知识和经验，无法判断小猫的健康状况，也无法提供适当的医疗保健。当出现宠物健康问题时，用户可能会感到手足无措,尤其是在没有宠物医院或药品储备的情况下。<br>
+                              <strong>获取可靠信息的痛点</strong>——用户在搜索网络信息时，往往会遇到大量不确定和自相矛盾的内容，难以确定正确的病因和解决方案。即使找到了可靠的信息渠道，也需要耗费大量时间和精力才能获取有用的信息。<br>
+                              <strong>社交支持的痛点</strong>——对于养宠物的新手来说，一些常见的问题和疑虑可能需要得到有经验的人的建议和支持。但如果周围没有合适的社交圈子或者朋友群体，用户可能会面临孤立无援的局面。<br>
+                              （2）解决方案：<br>
+                              <strong>医疗养护需求：</strong>可靠和便捷的医疗服务，能够帮助用户及时发现和解决宠物健康问题。这种服务应该包括跨地域的远程诊断、在线咨询、疫苗接种、药品配送等。<br>
+                              <strong>信息需求：</strong>准确、及时、全面、易于搜索的宠物健康信息平台，提供有关宠物饲养、健康、营养等方面的知识和经验分享，以及宠物医疗保健的最新进展和指南。<br>
+                              <strong>社交需求：</strong>与其他宠物爱好者交流和分享养护经验、关注宠物健康和行业动态、寻找志同道合的朋友等。这个平台应该支持多种形式的社交活动和互动方式，例如群组聊天、线下活动、专家问答等。</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  
+                <div class="st2" >
+                  <div class="card">
+                    <div class="card__side card__side--front">
+                      <div class="card__picture card__picture--3"> &nbsp; </div>
+                      <h4 class="card__heading"> <span class="card__heading-span card__heading-span--3"> 02 </span> </h4>
+                      <div class="card__details">
+                        <ul>
+                          <li>用户角色：谭鱼头，男，34岁，一位猫舍繁育人，已婚未育</li>
+                          <li>情景描述：从事猫繁育交易工作6年，猫舍规模逐渐扩大，猫咪数量众多，夫妻二人尽管经验丰富，但仍管理不暇，且缺乏稳定可靠的猫咪交易平台。 </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="card__side card__side--back card__side--back-3">
+                      <div class="card__cta">
+                        <div class="card__price-box" >
+                          <div >
+                            <p class="card__price-only" > <strong>故事1:</strong><br>
+                              谭鱼头的猫舍里有几十只猫咪，其中不乏许多珍贵品种。为了保证每只猫咪都得到充分的关心和照顾，他需要每天花费数小时的时间在猫舍内
+                              巡视、喂食、清理等。然而，这样的工作量已经超出了他们夫妻二人的承受范围，也影响了他们的生活和家庭。 <br>
+                              （1）用户痛点：<br>
+                              照顾大量猫咪的工作量巨大，<strong>管理困难</strong>，造成压力和负担。<br>
+                              （2）解决方案：<br>
+                              购置<strong>定时喂食和自动计量设备</strong>——减轻用户喂食负担，保证每只猫咪都得到充分的食物供应。<br>
+                              <strong>智能环境监测</strong>——监测猫舍内的温度、湿度、空气质量等环境因素，为用户提供实时报告和警报，以帮助用户及时采取措施来维持一个健康舒适的生活环境。<br>
+                              购置<strong>自动马桶清洗设备、自动化智能扫地机器人等设备</strong>，提高猫舍清洁效率，降低清洁工作量，确保猫舍始终保持清洁卫生。<br>
+                              <strong>记录</strong>每只猫咪的身体数据（如体重、食欲、水量、睡眠情况等），将数据上传至云端进行分析和管理，帮助及时发现健康问题并采取相应措施。 </p>
+                          </div>
+                          <div >
+                            <p class="card__price-value" > <strong>故事2:</strong><br>
+                              谭鱼头夫妻二人拥有丰富的养猫知识和经验。他们希望能让更多的人了解到自己的猫舍，并且成为猫宠圈中的领头羊。然而，在当地社区和猫宠圈中，
+                              他们的猫舍知名度并不高，这使得他们的猫舍交易和盈利较为困难，经常感到吃力。为了提高知名度和吸引更多的客人，他们开始在社交媒体上发布与猫咪
+                              相关的内容，如照片、视频和养猫技巧分享等。此外，他们还参加了当地的宠物展览会和猫咪比赛等活动，积极扩大自己的影响力。虽然这些努力带来了一
+                              些积极的结果，但他们仍然需要更多的客人来光顾猫舍，以确保其长期盈利和发展。 <br>
+                              （1）用户痛点：<br>
+                              猫舍<strong>知名度低，交易和盈利较困难</strong>，需要吸引更多客人来光顾，确保长期盈利和发展。想要成为猫宠圈成功人士，但并不被很多用户知晓，话语权低。<br>
+                              （2）解决方案：<br>
+                              通过知名、权威养猫服务平台发布猫咪交易信息，并定期更新。积极分享养猫知识和经验，吸引更多养猫新手关注，提高知名度和流量，成为<strong>KOL</strong>。 </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+          </section>
+
+          <section class="section-book">
+              <div class="row">
+                <div class="r1" >
+                      <div class="col-1-of-">
+                        <div class="feature-box">
+                          <h2 class="heading-tertiary u-margin-bottom-small"> 需求设计：</h2>
+                          <p class="feature-box__text"> 根据场景故事整理出用户需求后，利用用例模型定义功能需求，设计用户与系统的交互情况，描述用户交互过程，从外部大致定义整体系统功能。共计创建28个用例，定义5个系统功能。 
+                          </p> 
+                          <div class="row row1">
+                             <div class="book2"></div>
+                          </div>                 
+                        </div>
+                      </div>
+                 </div>  
+              </div>
+          </section>
+
+          <section class="section-tours"> 
+              <div class="row">
+                <div class="r2">
+                  <div class="col-1-of-">
+                    <div class="feature-box">
+                      <h2 class="heading-tertiary u-margin-bottom-small">用例图（Use case diagram）</h2>
+                      <p class="feature-box__text p1"> 在为每一个用例设定用例规约的过程中，详细描述使用场景，扩展用例，从而增加设计产品交互功能。以下为用例UC01（记录喂食时间/次数）的用例规约，作为部分展示。 </p>
+                      <div class="r3">
+                        <div class="col-1-of- r4" >
+                          <div class="feature-box"> <i class="feature-box__icon icon-basic-world"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small h32" >基本事件流</h3>
+                            <p class="feature-box__text p2"> <br>
+                              用户打开喂食记录系统。<br>
+                              <br>
+                              系统显示喂食记录主界面，包括“添加记录”、“查看记录”等选项。<br>
+                              <br>
+                              用户点击“添加记录”按钮。<br>
+                              <br>
+                              系统显示添加记录界面。<br>
+                              <br>
+                              用户输入猫咪名称、喂食时间、喂食方式、喂食量等信息。<br>
+                              <br>
+                              用户点击“保存”按钮。<br>
+                              <br>
+                              系统保存记录并提示保存成功。<br>
+                              <br>
+                              用户可以选择继续添加记录或返回主界面。<br>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-1-of- r5" >
+                          <div class="feature-box"> <i class="feature-box__icon icon-basic-world"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small h32" >扩展事件流</h3>
+                            <p class="feature-box__text p2"> <strong>A.<br>
+                              当用户输入的信息不完整或不合法时：</strong><br>
+                              系统提示用户填写完整信息或修正信息。用户根据提示进行操作。<br>
+                              <br>
+                              <br>
+                              <br>
+                              <strong>B.<br>
+                              当用户想要查看已有的喂食记录时：</strong><br>
+                              用户点击“查看记录”按钮。系统显示已有的喂食记录列表。用户在列表中选择要查看的记录。系统显示该记录的详细信息。<br>
+                              <br>
+                              <br>
+                              <br>
+                              <strong>C.<br>
+                              当用户想要修改已有的喂食记录时：</strong><br>
+                              用户点击“查看记录”按钮。系统显示已有的喂食记录列表。用户在列表中选择要修改的记录。系统显示该记录的详细信息，并允许用户对其进行修改。用户点击“保存”按钮。系统保存记录并提示保存成功。<br>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-1-of- r5" >
+                          <div class="feature-box"> <i class="feature-box__icon icon-basic-world"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small h32">扩展点</h3>
+                            <p class="feature-box__text p2" > <strong>提醒用户喂食：</strong><br>
+                              系统可以根据用户设定的喂食时间和数量，自动提醒用户何时应该给猫咪喂食，并且可以设置多个提醒选项，如声音、振动等。<br>
+                              <br>
+                              <strong>分享喂食记录：</strong><br>
+                              提供分享功能，让用户可以将记录分享给家人或其他照顾猫咪的人员，以保证猫咪得到及时的喂食和照顾。<br>
+                              <br>
+                              <strong>饮水记录：</strong><br>
+                              添加猫咪饮水记录功能，让用户可以记录猫咪的饮水情况，从而更好地了解猫咪的健康状况。<br>
+                              <br>
+                              <strong>健康数据追踪：</strong><br>
+                              为猫咪建立健康档案，让用户可以在喂食记录中添加猫咪的身体状况、体重、体温等健康数据，并进行长期追踪分析，以便更好地掌握猫咪的健康状况。<br>
+                              <br>
+                              <strong>配置两只以上猫咪的记录：</strong><br>
+                              增加管理多只猫咪的功能，让用户可以轻松管理多只猫咪的喂食记录，以及分别设置提醒与健康数据。<br>
+                              <br>
+                              <strong>智能推荐喂食量和喂食时间：</strong><br>
+                              结合猫咪身体状况和喂食记录，智能推荐下次科学合理的喂食时间及喂食量。 </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+
+            </section>
+
+          <section class="section-book">
+             <div class="row">   
+              <div class="r2">
+                  <div class="col-1-of-">
+                    <div class="feature-box">
+                      <h2 class="heading-tertiary u-margin-bottom-small"> 用户使用场景-层级转换流程</h2>
+                      <p class="feature-box__text p1" > 通过绘制用户使用场景-层级转换流程图提取不同层级的用户需求 </p>
+                      <div class="row row1">
+                         <div class="book1"></div>
+                      </div>
+                      <p class="p3">
+                          <strong>小白用户：</strong>需要产品提供易于使用的界面和简单明了的指南，以帮助他们快速了解如何使用不同的功能，并了解如何获取想要的信息。<br>
+                          <strong>普通用户：</strong>需要产品保持内容更新和有用，需要对医疗咨询、商品购买等服务感到满意。
+                          <br>
+                          <strong>忠实用户：</strong>需要产品提供更深入的信息和个性化体验。希望享受VIP服务。
+                          <br>
+                          <strong>达人用户：</strong>需要产品提供更高级的功能和社交互动。希望与其他用户分享健康信息、医疗经验和宠物知识，获得大量用户关注，并希望能够参与到智库中，共同为猫咪健康和福利做出贡献。
+                          <br>
+                      </p>
+                    </div>
+                  </div>
+                </div> 
+              </div> 
+            </section>
+
+          <section class="section-book1" id="05">
+                  <div class="row row1">
+                    <h1 class="heading-secondary"> 产品框架</h1>
+                    <div class="book">
+                    </div>
+                  </div>
+            </section>
+	      <!--产品营销部分-->
+          <section class="section-book">
+		      <div class="row">
+		          <div class="main-sheji">
+		              <div class="wrap">
+                          <h1 class="heading-secondary"> 产品营销 </h1>
+                          <!-- Step1 获客  choose -->
+			              <div class="about-sheji">
+				              <div class="about-top">
+					              <div class="col span_1_of_about">
+							          <h3>Step1：获客</h3>
+						              <div class="about-topgrids">
+						                  <div class="about-topgrid1">
+							                  <h3>TO C领域模式</h3>
+							                  <img src="images/gravatar.jpg" title="name" alt="" class="photo-size">
+							                  <ul>
+											     <li><time>
+													 <h5>瞄准未来十年宠物行业的创业窗口，面向消费者流量。</h5>
+											     </time></li>
+												 <li><time>
+													 <h5>做综合性数字门店。品质优先，内容为王。</h5>
+											     </time></li>
+												 <li><time>
+													 <h5>注重首因效应，树立品牌标签，搭建“猫窝APP”综合且放心的第一印象。</h5>
+											     </time></li>
+											  </ul>
+						                  </div>
+				                      </div>
+							          <div class="about-desc">
+								          <p>猫窝团队在运营初期，选择打造轻松诙谐、朗朗上口的广告语与富含萌属性的宣传视频、平面广告等形式扩大品牌知名度；以特定渠道精准投放在尽可能缩小前期成本的同时达到较好的获客转化率效果；并设计具有”强互动性”与“高趣味性”的产品接触形式确保用户获得方便、有爱的第一体验，利用良好首因效应，使用户乐于运作产品的用户激励机制，初步稳定获客。</p>
+								          <div class="historey-lines">
+									      <h4>渠道运营要素</h4>
+										  <ul>
+											<li><time>成本：以媒体平台为主投放链接广告、视频广告与平面海报，投放成本低，制作成本偏低</time></li>
+											<li><time>定向：大数据挖掘，易接触目标人群且获得信息较详细</time></li>
+											<li><time>控制：对起初的实验有较大程度的控制主权，可以容错，在尝试后选择更合适的合作商</time></li>
+											<li><time>时间投入：视频广告制作时间较快（半-1月），发布审核流程也快</time></li>
+											<li><time>产出时间：观察广告效益、产品深测和运营效果的时间较长，需分阶段进行较长时间（半年起步）的不断反馈和优化</time></li>
+											<li><time>规模：主要是宠圈人士，专业度高，规模较小</time></li>
+											<div class="clear"> </div>
+										  </ul>
+								          </div>
+							          </div>				    
+							          <div class="clear"></div>
+					              </div>
+					              <div class="col span_1_of_about1">
+						          <h3>广告投放，打出slogen</h3>
+						              <ul class="comments-custom unstyled">			
+					                      <li class="comments-custom_li">
+								              <div class="icon"></div>
+								              <div class="right-text">	
+									          <h4 class="comments-custom_h">AD1:</h4>
+									          <time>猫窝，做一个合格的铲屎官</time>
+								              </div>
+								          <div class="clear"></div>
+							              </li>
+							              <li class="comments-custom_li">
+								              <div class="icon"></div>
+								              <div class="right-text">	
+									          <h4 class="comments-custom_h">AD2:</h4>
+										      <time>让你的喵星人在“窝”里过得更舒“猫”！</time>
+								              </div>
+								          <div class="clear"></div>
+							              </li>
+							              <li class="comments-custom_li">
+								          <div class="icon"></div>
+								          <div class="right-text">	
+									          <h4 class="comments-custom_h">AD3:</h4>
+										      <time>掌握“喵”生之道，让你的猫咪在“窝”里自在“嗨”！</time>
+								          </div>
+								          <div class="clear"></div>
+							              </li>
+							              <li class="comments-custom_li">
+								          <div class="icon"></div>
+								          <div class="right-text">	
+									          <h4 class="comments-custom_h">AD4:</h4>
+										      <time>轻松养成人猫同步调, 省心养宠无忧。</time>
+								          </div>
+								          <div class="clear"></div>
+							              </li>
+					                  </ul>
+				                  </div>
+					              <div class="clear"></div>
+			                  </div>				
+			              <div class="col-1-of-4">
+                              <div class="feature-box">
+                              <i class="fa fa-chrome"></i>
+					          <h3 class="heading-tertiary u-margin-bottom-small">线上广告</h3>
+					          <p class="feature-box__text">
+                                 在“知乎”、“小红书”、“B站”三个平台通过KOL向目标用户群体进行精准投放，以最小数量获最高收益，提高用户黏性，增强用户规模。通过自媒体创作提高用户活跃度，以互动和评论回复来激发参与，提升运作成本效益。
+                              </p>
+                              </div>
+                          </div>
+                          <div class="col-1-of-4">
+                              <div class="feature-box">
+                              <i class="fa fa-connectdevelop"></i>
+                              <h3 class="heading-tertiary u-margin-bottom-small">合作推广</h3>
+                              <p class="feature-box__text">
+                                 与我们准备合作的猫舍与宠物医院等行业相关品牌进行合作，实现联合潜在用户群体。还可以参加猫咪展览会、猫咪教育培训课程以及相关比赛等方式进行知名度升级，并通过给与活动券、优惠券等方式进行流量引流。
+                              </p>
+                              </div>
+                          </div>
+                          <div class="col-1-of-4">
+                              <div class="feature-box">
+                              <i class="fa fa-joomla"></i>
+                              <h3 class="heading-tertiary u-margin-bottom-small">口碑营销</h3>
+                              <p class="feature-box__text">
+                                 投资一定成本来建立公司的品牌知名度，争取客户口碑和曝光提升。可以通过乐意提供优质的服务来提高用户满意度，从而提升品牌口碑。通过引导用户发表评价等方式，进一步提升用户频次和黏性，确保早期投资的回报。
+                              </p>
+                              </div>
+                          </div>
+                          <div class="col-1-of-4">
+                              <div class="feature-box">
+                              <i class="fa fa-odnoklassniki"></i>
+                              <h3 class="heading-tertiary u-margin-bottom-small">精准投放</h3>
+                              <p class="feature-box__text">
+                               特别对各线下领养组织和中小猫舍进行关键词、兴趣标签和地理位置的细节准确定位，以实现更加精准和高效的广告投放。通过判断和优化点击率、转化率等数据指标，不断优化和控制成本，提高广告投资产出效益。
+                              </p>
+                              </div>
+                          </div>			
+                          </div>
+                          <!-- Step2 激活  choose -->
+                          <div class="about-top r7" >
+                          <h1 class="h11">STEP2：<br>
+                            激活 注册账号、建立猫咪档案等</h1>
+                          <div class="r6">
+                            <div class="card1">
+                              <div class="img"> <img alt="" src="images/g5.jpg"> </div>
+                              <div class="top-text">
+                                <div class="name">一</div>
+                              </div>
+                              <div class="bottom-text">
+                                <div class="text">
+                                  <p><strong> 首次登录展示产品优势:</strong>左右滑动窗口设计，在底部设计“跳过、下一页”按钮，使用户快速浏览猫窝产品功能，传递猫窝产品相关信息</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card1">
+                              <div class="img"> <img alt="" src="images/g4.jpg"> </div>
+                              <div class="top-text">
+                                <div class="name">二</div>
+                              </div>
+                              <div class="bottom-text">
+                                <div class="text">
+                                  <p><strong>设定体验路线:</strong>在app首页优先展示产品核心功能——宠物记录、宠物智库、宠物医疗、宠物商场，通过指引进行步步引导。</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card1">
+                              <div class="img"> <img alt="" src="images/g1.jpg"> </div>
+                              <div class="top-text">
+                                <div class="name">三</div>
+                              </div>
+                              <div class="bottom-text">
+                                <div class="text">
+                                  <p><strong>建立用户奖励机制：</strong>为新用户提供商城优惠券或猫咪商品奖励，以鼓励他们尝试使用本应用。同时，为老用户提供积分或折扣等奖励，以促进他们使用本应用并推荐给他人。</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card1">
+                              <div class="img"> <img alt="" src="../猫圈/images/b1.jpg"> </div>
+                              <div class="top-text">
+                                <div class="name">四</div>
+                              </div>
+                              <div class="bottom-text">
+                                <div class="text">
+                                  <p><strong>猫窝-新人专属助手:</strong>类似于平台客服，新用户可以了解到常见的一些问题，以及饲养猫咪的注意事项等。</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="clear"></div>
+                        </div>             
+			              <!-- Step3 留存  choose -->
+                          <div class="w3-agileits-choose">
+                              <div class="container">
+                                   <div class="agileits-about-top-heading agileits-w3layouts-choose-heading">
+                                        <h3>Step 3 留存</h3>
+                                   </div>
+                                   <div class="agileits-about-top-heading agileits-w3layouts-choose-heading">
+                                        <h3>TO新用户留存：重在优化体验，快速让用户感受到产品核心价值</h3>
+                                   </div>
+                              <div class="agile-choose-grids">
+                                  <div class="col-sm-4 agile-choose-grid">
+                                      <div class="choose-icon">
+                                          <i class="fa fa-user" aria-hidden="true"></i>
+                                      </div>
+                                      <div class="choose-info">
+                                          <h4>1.首次登录展示产品优势</h4>
+                                          <p>左右滑动窗口设计，在底部设计“跳过、下一页”按钮，使用户快速浏览猫窝产品功能，传递猫窝产品相关信息</p>
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-4 agile-choose-grid">
+                                      <div class="choose-icon">
+                                          <i class="fa fa-cogs" aria-hidden="true"></i>
+                                      </div>
+                                      <div class="choose-info">
+                                          <h4>2.推荐关注优质用户</h4>
+                                          <p>给新用户推荐关注一些优质用户，让用户看到养宠达人们分享的养宠心得，同时可以看到别人的评论转发，充分利用社会认同的心理。.</p>
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-4 agile-choose-grid">
+                                      <div class="choose-icon">
+                                          <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                      </div>
+                                      <div class="choose-info">
+                                          <h4>3.设定体验路线</h4>
+                                          <p>在app首页优先展示产品核心功能——宠物记录、宠物智库、宠物医疗、宠物商场，通过蒙版进行步步引导。.</p>
+                                      </div>
+                                  </div>	
+                              </div>
+                              <div class="agile-choose-grids">
+                                  <div class="col-sm-4 agile-choose-grid">
+                                      <div class="choose-icon">
+                                          <i class="fa fa-user" aria-hidden="true"></i>
+                                      </div>
+                                      <div class="choose-info">
+                                          <h4>4.猫窝-新人助手</h4>
+                                          <p>类似于平台客服，新用户可以了解到常见的一些问题，以及饲养猫咪的注意事项等。</p>
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-4 agile-choose-grid">
+                                      <div class="choose-icon">
+                                          <i class="fa fa-cogs" aria-hidden="true"></i>
+                                      </div>
+                                      <div class="choose-info">
+                                          <h4>5.新人红包</h4>
+                                          <p>针对新人的购物红包券，相当于新手福利。</p>
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-4 agile-choose-grid">
+                                      <div class="choose-icon">
+                                          <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                      </div>
+                                      <div class="choose-info">
+                                          <h4>6.长期登录奖励</h4>
+                                          <p>登录满一周、一月等可以获得奖励，如商城宠物体检套餐优惠、一分钱购买生骨肉体验装一份等。</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="agileits-about-top-heading agileits-w3layouts-choose-heading">
+                                        <h3>TO老用户的留存：重在精细化运营，即精细化的运营策略和精细化的数据监控。</h3>
+                              <div class="agile-choose-grids">
+                                  <div class="col-sm-4 agile-choose-grid">
+                                      <div class="choose-icon">
+                                          <i class="fa fa-user" aria-hidden="true"></i>
+                                      </div>
+                                      <div class="choose-info">
+                                          <h4>1.上瘾模型</h4>
+                                          <p>收集用户信息，从科学的数据分析出发，归纳用户使用习惯，加强产品与用户之间的互动，逐步的将产品与用户情绪，行为习惯等绑定。</p>
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-4 agile-choose-grid">
+                                      <div class="choose-icon">
+                                          <i class="fa fa-cogs" aria-hidden="true"></i>
+                                      </div>
+                                      <div class="choose-info">
+                                          <h4>2.福格行为模型</h4>
+                                          <p>针对时间不够，上班族生活节奏快的用户限制因素，通过增加辅助功能或者简化产品操作来间接帮助用户使用。</p>
+                                      </div>
+                                  </div>
+                                  <div class="col-sm-4 agile-choose-grid">
+                                      <div class="choose-icon">
+                                          <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                      </div>
+                                      <div class="choose-info">
+                                          <h4>3.多变的酬赏</h4>
+                                          <p>猎物酬赏：宠物智库--发表文章获得读者的打赏；自我酬赏：宠物智库--文章被人收藏点赞评论；社交酬赏:宠物智库--收获g更多订阅者。</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+                          </div>
+		                  <!-- //choose -->
+                            <div class="about-bottom" >
+                                      <div class="agileits-about-top-heading agileits-w3layouts-choose-heading">
+                                        <h3>Step 4 变现</h3>
+                                      </div>
+                                      <div class="r6">
+                                        <div class="card card2">
+                                          <div class="card__side card__side--front r8">
+                                            <div class="card__picture card__picture--1"> &nbsp; </div>
+                                            <h4 class="card__heading"> <span class="card__heading-span card__heading-span--1"> 广告收入 </span> </h4>
+                                          </div>
+                                          <div class="card__side card__side--back card__side--back-1 r8">
+                                            <div class="card__cta">
+                                              <p class="p5">&nbsp;&nbsp;通过在平台上展示广告赚取收入。广告来源猫咪食品、用品、玩具、保险等各类相关产品或服务。</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="card card2">
+                                          <div class="card__side card__side--front r8">
+                                            <div class="card__picture card__picture--1"> &nbsp; </div>
+                                            <h4 class="card__heading"> <span class="card__heading-span card__heading-span--1"> 电商变现 </span> </h4>
+                                          </div>
+                                          <div class="card__side card__side--back card__side--back-1 r8">
+                                            <div class="card__cta">
+                                              <p class="p5">&nbsp;&nbsp;O2O+B2C模式，除了与各宠物商家达成合作，在猫咪商城代销猫粮、猫砂、保健药品、玩具等商品外，猫窝也自产自销生骨肉产品。</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="card r11" >
+                                          <div class="card__side card__side--front r8">
+                                            <div class="card__picture card__picture--1"> &nbsp; </div>
+                                            <h4 class="card__heading"> <span class="card__heading-span card__heading-span--1"> 增值服务变现 </span> </h4>
+                                          </div>
+                                          <div class="card__side card__side--back card__side--back-1 r8">
+                                            <div class="card__cta">
+                                              <p class="p5">&nbsp;&nbsp;为用户提供高级会员服务，包括建立更多的猫咪档案信息、独家医疗咨询、专属折扣优惠、永久去除广告等。</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="r6">
+                                        <div class="card r12" >
+                                          <div class="card__side card__side--front r8">
+                                            <div class="card__picture card__picture--1"> &nbsp; </div>
+                                            <h4 class="card__heading"> <span class="card__heading-span card__heading-span--1"> 佣金分成 </span> </h4>
+                                          </div>
+                                          <div class="card__side card__side--back card__side--back-1 r8">
+                                            <div class="card__cta">
+                                              <p class="p5">&nbsp;&nbsp;通过合作伙伴关系，提供增值服务如宠物寄养、美容美发、训练等，并从中获得佣金。</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="card r13" >
+                                          <div class="card__side card__side--front r8">
+                                            <div class="card__picture card__picture--1"> &nbsp; </div>
+                                            <h4 class="card__heading"> <span class="card__heading-span card__heading-span--1"> 数据变现 </span> </h4>
+                                          </div>
+                                          <div class="card__side card__side--back card__side--back-1 r8">
+                                            <div class="card__cta">
+                                              <p class="p5">&nbsp;&nbsp;利用平台积累的大量宠物数据进行深度学习和人工智能技术的应用，为其他企业提供宠物市场洞察报告等数据分析服务。</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>                         
+			          </div>
+                   </div>
+	          </div>
+          </section>
+
+
+
+          <section id="07">
+          <footer class="footer">
+            <div class="footer__logo-box">
+              <picture class="footer__logo">
+                <img  src="./images/maowologo.png" alt="website logo" class="footer__logo__size">
+				<p>本组分工 (按首字母排名不分先后)</p>
+				<p>刘邓:1.“我的猫圈”网页内容及代码;2.首页代码;3.产品设计网页中“产品框架”部分内容及代码;“场景和需求设计”代码;4.产品设计网页中“激活”部分内容及代码、“变现”部分代码;5.代码整合完善</p>
+				<p>刘怡秀:1.“登录”网页内容及代码;2“猫咪领养”网页内容及代码;3.产品设计网页中“产品概念与设计研究”部分内容;4.产品设计网页中“留存”部分内容;5.结课上台汇报展示及文稿</p>
+				<p>连奕洁: 1.“我的猫咪”网页内容及代码;2.“猫咪医疗”网页内容及代码;3.产品设计网页中“用户模型”部分内容及代码;“产品概念与设计研究”代码;4.产品设计网页中“获客”部分内容及代码;“留存”部分代码;5.首页内容及小部分代码</p>
+				<p>叶雅寒: 1“关于我们”网页内容及代码;2.“猫咪商城”网页内容及代码;3.产品设计网页中“场景和需求设计”部分内容;4.产品设计网页中“变现”部分内容;5.结课上台汇报展示及文稿</p>			
+              </picture>
+            </div>
+          </footer>
+      </section>
+    
+    </div>
+      
+</body>
+</html>

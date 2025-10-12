@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>医疗</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="" />
+    
+    <link href="css/bulma.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- bootstrap-css -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!--// bootstrap-css -->
+    <!-- css -->
+    
+	<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <!--// css -->
+    <!-- //font-awesome icons -->
+    <!-- //font---下拉菜单点击显示 -->
+    <!-- 下拉菜单点击显示 -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- 下拉选带搜索,成熟的js框架 -->
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- //页面导航栏目--navbar navbar-default1 navbar-default-->
+        <div class="navbar has-shadow header-zk">
+          <div class="container">
+            <div class="navbar-menu">
+              <div class="navbar-start">
+                 <img src="images/maowologo.png" alt="猫窝logo" width="60" height="60">
+                <a class="navbar-item is-tab is-size-3" href="../catme首页.html">首页</a>
+                <a class="navbar-item is-tab is-size-3" href="../我的猫咪/mm.html">我的猫咪</a>
+                <a class="navbar-item is-tab is-size-3" href="../猫圈/猫圈.html">猫圈</a>
+                <a class="navbar-item is-tab is-size-3" href="../商城/商城.html">商城</a>
+                <a class="navbar-item is-active is-tab is-size-3" href="../医疗/医疗.html">医疗</a>
+                <a class="navbar-item is-tab is-size-3" href="../领养/领养.html">领养</a>
+              </div>
+              <div class="navbar-item">
+                  <div class="field is-grouped ">
+                    <div class="control has-icons-right">
+                      <input type="text" class="input input11" placeholder="搜索你感兴趣的内容...">
+                      <span class="icon is-right">
+                      <i class="fa fa-search"></i>
+                    </span>
+                    </div>
+                    <div class="control">
+                      <input type="submit" class="button button11" value="GO" >
+                    </div>
+                  </div>
+              </div>
+              <div class="navbar-end">
+                <a href="#" class="navbar-item">
+                  <i class="fa fa-15 fa-bell"></i><br>
+                    消息
+                </a>
+
+                <a href="#" class="navbar-item">      
+                  <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                           <img src="../猫圈/images/tx.png" class="img11" alt="我的">
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">我的</a></li>
+                            <li><a href="#">设置</a></li>
+                            <li><a href="#">退出</a></li>                  
+                        </ul>
+                    </li>
+                 </a> 
+              </div>	
+            </div>
+
+            <nav class="navbar navbar-default1 navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse1">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse  navbar-collapse navbar-collapse1">
+                        <ul>
+                            <li>
+                                <a href="#about" class="scroll">在线宠医问诊</a>
+                            </li>
+                            <li>
+                                <a href="#medicine" class="scroll">在线药品处方</a>
+                            </li>
+                            <li>
+                                <a href="#map" class="scroll">宠物医院导航</a>
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+        </div>
+    
+       
+  
+        <!-- 在线宠医问诊模块 -->
+	    <!-- 在线宠医问诊模块--Box1 -->
+        <div class="about" id="about">
+            <div class="container">
+                <h3 class="agile-title">
+					在线宠医问诊
+				</h3>
+                <div class="about-top w3ls-agile">
+                    <div class="col-md-6 red">
+                        <img class="img-responsive" src="images/medicine-P1.png" alt="">
+                    </div>
+                    <div class="col-md-6 come">
+                        <div class="about-wel">
+                            <h5><i class="fa fa-user-md"></i>
+                                放心问 <span>专业安全</span>
+                            </h5>
+                            <p>
+                                猫窝平台的入驻宠医必须拥有全国执业兽医资格证、身份证正反面、手持身份证三项证件。我们以严格的人工审核保证宠医证件信息与本人照片、个人简介、执业经历等描述一致确保本人信息真实有效。</p>
+                            <p>
+                                <b>查询证监查询平台的宠医证件</b></p>
+                            <ul>
+                                <li><i class="glyphicon glyphicon-ok"></i>真实临床兽医</li>
+                                <li><i class="glyphicon glyphicon-ok"></i>双重审核</li>
+                                <li><i class="glyphicon glyphicon-ok"></i>六项监管措施</li>
+                            </ul>
+							<p>
+                                为了让挑选宠医不再成为难题，猫窝将宠主满意度高以及平台审核优秀的宠主推荐给宠主，随时随地帮助宠主得到高质量的服务。目前全平台宠医已服务了10万+宠主，拥有高达97%的宠主满意度。</p>
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 在线宠医问诊模块--Box2迅速联系图片栅格 -->
+        <div class="qiuk" id="qiuk">
+            <div class="container">
+                <div class="button-styles">
+                    <div class="ruk clearfix">
+                        <div class="itemBox col-md-6">
+                            <a href="/consult/case/text" class="clearfix">
+                                <div class="imgbox">
+                                    <img src="images/text-wenchongyi1.png" alt="快速问医生">
+                                </div>
+                                <div class="text">
+                                    <span class="font-bold">快速问医生</span> <span>无需选择 自动匹配</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="itemBox  col-md-6">
+                            <a href="/consult/tel" class="clearfix">
+                                <div class="imgbox">
+                                    <img src="https://cdn.moguvet.com/custom/front/newConsult/new-tel.png" alt="电话问诊">
+                                </div>
+                                <div class="text">
+                                    <span class="font-bold">名医电话</span> <span>快速接通 可传图片</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	    <!-- 在线宠医问诊模块--Box3快速找医生及折叠菜单选项 -->
+        <div class="container">
+            <div class="type-wrap">
+                <div class="type-box">
+                    <h3 class="font-bold title">快速找医生</h3>
+                    <a href="/consult/case/text" class="link">不知道问哪位医生 
+					    <i class="iconfont mg-icon-youjiantou-xi"></i>
+					</a>
+                </div>
+            </div> 
+		    <section id="faq" class="section faq">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                        <h4 class="panel-title">
+                                            <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> 特殊品种</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false">
+                                        <div class="panel-body">
+			                                <div class="list-box collapse" id="collapse1" data-parent="#accordion">
+										        <div class="item">
+													<div class="item-font">暹罗猫</div>
+												</div>
+										        <div class="item">
+													<div class="item-font">折耳猫</div>
+												</div>
+										        <div class="item">
+													<div class="item-font">德文卷耳猫</div>
+												</div>
+										        <div class="item">
+													<div class="item-font">缅因猫</div>
+												</div>
+										        <div class="item">
+													<div class="item-font">无毛猫</div>
+												</div>
+												<div class="item">
+													<div class="item-font">阿比西尼亚猫</div>
+												</div>
+									        </div>
+                                        </div>
+                                   </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h4 class="panel-title">
+                                            <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> 病症问诊</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false">
+                                        <div class="panel-body">
+			                                <div class="list-box collapse" id="collapse2" data-parent="#accordion">
+										        <div class="item">
+													<div class="item-font">消化道</div>
+												</div>
+										        <div class="item">
+													<div class="item-font">呼吸道</div>
+												</div>
+										        <div class="item">
+													<div class="item-font">泌尿道</div>
+												</div>
+										        <div class="item">
+													<div class="item-font">皮肤科</div>
+												</div>
+										        <div class="item">
+													<div class="item-font">传染病</div>
+												</div>
+										        <div class="item">
+													<div class="item-font">内科</div>
+												</div>
+										        <div class="item">
+													<div class="item-font">心脏</div>
+												</div>
+									        </div>
+								        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                        <h4 class="panel-title">
+                                            <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">症状表现</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false">
+                                        <div class="panel-body">
+		                                    <div class="list-box collapse" id="collapse3" data-parent="#accordion">
+										        <div class="item">
+													<div class="item-font">腹泻</div>
+												</div>
+										        <div class="item">
+													<div class="item-font">打喷嚏</div>
+												</div>
+										        <div class="item">
+													<div class="item-font">呕吐</div>
+												</div>
+										        <div class="item">
+													<div class="item-font">便血</div>
+												</div>
+		                                   </div>
+								       </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+		<!--在线宠医问诊模块--Box4医生信息介绍 -->
+		<div class="doctors" >
+		         <div class="doctors-tit">
+			        <div id="view-top"></div> 
+				        <p class="font-bold doctors-tit__txt">推荐医生</p> 
+				    <div class="hyp">
+				        <a href="/about/trust?index=2" class="doctors-tit__desc">为您提供一站式医疗服务
+					        <i class="iconfont mg-icon-iconfontjiantou2"></i>
+				        </a>
+				        <a href="/consult/case/text" class="link">换一批 
+					        <i class="iconfont mg-icon-youjiantou-xi"></i>
+			            </a>
+				    </div>
+			    </div> 									
+			<div role="feed" class="van-list">
+			     <div class="doctor">
+				     <a href="/doctor/1401608" class="doctor-left" hover-class="none">
+					     <div class="avatar">
+						     <div class="doctor-left-cover-van-image">
+									<img src="https://cdn.moguvet.com/avatar/2021/04/dbf127f89616709a7d4803364136595e.jpg-avatar.200.200" class="van-image__img" alt="">
+							 </div> 
+						 </div> 
+						 <div class="doctor-left-info">
+							 <div class="doctor-left-info-desc">
+								 <p class="doctor-left-info-desc__name">邓薄鸿</p> 
+								 <span class="doctor-left-info-desc__title">执业兽医师</span> 
+								 <em class="font-bold doctor-left-info-desc__prescription">可开处方</em> 
+							 </div> 
+							 <p class="doctor-left-info-hospital">执业编号：A012018210173</p> 
+							 <div class="doctor-left-info-tag">
+								 <p class="doctor-left-info-tag__pet">瑞鹏宠物医院</p>
+							 </div> 
+							 <p class="doctor-left-info-expert otc2">
+									擅长：猫专科，呼吸系统疾病，泌尿系统疾病，肝胆系统疾病，消化道疾病，传染病，皮肤病
+							 </p> 
+							 <div class="doctor-left-info-data">
+								 <div class="doctor-left-info-data-star">
+									 <span class="font-bold doctor-left-info-data-star__txt">
+											<i class="fa fa-heart"></i>
+											4.95
+									 </span>
+								 </div> 
+								 <span class="after-line doctor-left-info-data__number">月回答
+									 <em class="font-bold doctor-left-info-data__number__txt">567</em>
+								 </span> 
+									 <span class="after-line doctor-left-info-data__number">月处方
+										 <em class="font-bold doctor-left-info-data__number__txt">292</em>
+								     </span>
+							 </div>
+						 </div>
+					 </a> 
+						 <div class="doctor-tag">
+						     <span class="doctor-tag__name">从业5年以上</span>
+						 </div> 
+						 <div class="doctor-bottom">
+							 <div class="doctor-bottom-price">
+								 <p class="doctor-bottom-price-type">
+									 <span class="font-bold">图文</span>
+									 <i class="font-bold price"> ¥29</i>
+								 </p> 
+								 <p class="doctor-bottom-price-type-phone">
+									 <span class="font-bold">电话</span>
+									 <i class="font-bold price"> ¥79</i>
+								 </p> 
+							 </div> 
+							 <div class="doctor-bottom-discount">
+								 <div class="font-bold doctor-bottom-discount__number" >问医生</div>
+							 </div>
+						 </div>
+				 </div>
+				 <div class="doctor">
+					 <a href="/doctor/1000287" class="doctor-left" hover-class="none">
+						 <div class="avatar">
+							  <div class="doctor-left-cover-van-image" >
+								  <img src="https://cdn.moguvet.com/avatar/2021/05/5a627bf67515ebdc83af3303cb3319b2.png-avatar.200.200" class="van-image__img" alt="">
+							  </div> 
+						 </div> 
+						 <div class="doctor-left-info">
+						     <div class="doctor-left-info-desc">
+								 <p class="doctor-left-info-desc__name">孙嘉辰</p> 
+								 <span class="doctor-left-info-desc__title">执业兽医师</span> 
+								 <em class="font-bold doctor-left-info-desc__prescription">可开处方</em> 
+							 </div> 
+							 <p class="doctor-left-info-hospital">执业编号：A012018370097</p> 
+							 <div class="doctor-left-info-tag">
+								 <p class="doctor-left-info-tag__pet">华中农业大学附属医院</p>
+							 </div> 
+							 <p class="doctor-left-info-expert otc2">
+								 擅长：猫呕吐拉稀等症状,传染性疾病,寄生虫疾病,消化系统,呼吸系统,泌尿系统疾病,产科,心脏病科等疾病。专攻产科，心脏及肿瘤相关疾病。
+							 </p> 
+							 <div class="doctor-left-info-data">
+								 <div class="doctor-left-info-data-star">
+									 <span class="font-bold doctor-left-info-data-star__txt">
+											<i class="fa fa-heart"></i>
+											4.80
+									 </span>
+								 </div> 
+								 <span class="after-line doctor-left-info-data__number">月回答
+									 <em class="font-bold doctor-left-info-data__number__txt">94
+									 </em>
+								 </span> 
+								 <span class="after-line doctor-left-info-data__number">月处方
+									 <em class="font-bold doctor-left-info-data__number__txt">26
+									 </em>
+								 </span>
+							 </div>
+						 </div>
+					 </a> 
+						 <div class="doctor-tag">
+						     <span class="doctor-tag__name">技术院长</span>
+							 <span class="doctor-tag__name">业内专家</span>
+							 <span class="doctor-tag__name">211院校</span>
+						 </div>
+						 <div class="doctor-bottom">
+							 <div class="doctor-bottom-price">
+								 <p class="doctor-bottom-price-type">
+									 <span class="font-bold">图文</span>
+									 <i class="font-bold price"> ¥59</i>
+								 </p> 
+								 <p class="doctor-bottom-price-type-phone">
+									 <span class="font-bold">电话</span>
+									 <i class="font-bold price"> ¥99</i>
+								 </p> 
+							 </div> 
+							 <div class="doctor-bottom-discount">
+								 <div class="font-bold doctor-bottom-discount__number">问医生</div>
+							 </div>
+						 </div>
+				 </div>
+				 <div class="doctor">
+					 <a href="/doctor/1046848" class="doctor-left" hover-class="none">
+						 <div class="avatar">
+								<div class="doctor-left-cover-van-image">
+									<img src="https://cdn.moguvet.com/avatar/2020/04/8f31f45c41168fff3260f4244561f63b.jpg-avatar.200.200" class="van-image__img" alt="">
+								</div> 
+						 </div> 
+						 <div class="doctor-left-info">
+						     <div class="doctor-left-info-desc">
+							     <p class="doctor-left-info-desc__name">赵一强</p> 
+								 <span class="doctor-left-info-desc__title">执业兽医师</span> 
+								 <em class="font-bold doctor-left-info-desc__prescription">可开处方</em> 
+							 </div> 
+							 <p class="doctor-left-info-hospital">执业编号：A012014130038</p> 
+							 <div class="doctor-left-info-tag">
+								 <p class="doctor-left-info-tag__pet">中国农业大学动物医院</p>
+							 </div> 
+							 <p class="doctor-left-info-expert otc2">
+									擅长：猫传染病，犬猫消化内科，五官科，血液疾病。各种心脏病心衰肺水肿，胰腺炎，糖尿病，肝肾内科疾病。尤其擅长内科疾病，心脏，肝肾，消化系统，神经内科，传染病，皮肤病。
+							 </p> 
+							 <div class="doctor-left-info-data">
+								 <div class="doctor-left-info-data-star">
+									 <span class="font-bold doctor-left-info-data-star__txt">
+											<i class="fa fa-heart"></i>
+											4.90
+									 </span>
+								 </div> 
+								 <span class="after-line doctor-left-info-data__number">月回答
+									 <em class="font-bold doctor-left-info-data__number__txt">111</em>
+								 </span> 
+								 <span class="after-line doctor-left-info-data__number">月处方
+									 <em class="font-bold doctor-left-info-data__number__txt">49</em>
+								 </span>
+							 </div>
+						 </div>
+					 </a> 
+					     <div class="doctor-tag">
+						     <span data-v-a35b4a4c="" class="doctor-tag__name">技术院长</span>
+							 <span data-v-a35b4a4c="" class="doctor-tag__name">从业8年以上</span>
+							 <span data-v-a35b4a4c="" class="doctor-tag__name">业内专家</span>
+						 </div> 
+						 <div class="doctor-bottom">
+						     <div class="doctor-bottom-price">
+								 <p class="doctor-bottom-price-type">
+									 <span class="font-bold">图文
+									 </span>
+									 <i class="font-bold price"> ¥39</i>
+								 </p> 
+								 <p class="doctor-bottom-price-type-phone">
+									<span class="font-bold">电话</span>
+									<i class="font-bold price"> ¥79</i>
+								 </p> 
+							 </div> 
+							 <div class="doctor-bottom-discount">
+								 <div class="font-bold doctor-bottom-discount__number">问医生
+								 </div>
+							 </div>
+						 </div>
+				 </div>
+				 <div class="doctor">
+					 <a href="/doctor/1249218" class="doctor-left" hover-class="none">
+						 <div class="avatar">
+							 <div class="doctor-left-cover-van-image">
+								 <img src="https://cdn.moguvet.com/avatar/2021/05/e9b27e17000cc0190efc339a06457443.png-avatar.200.200" class="van-image__img" alt="">
+							 </div> 
+						 </div> 
+						 <div class="doctor-left-info">
+						     <div class="doctor-left-info-desc">
+								 <p class="doctor-left-info-desc__name">陈奕达</p> 
+								 <span class="doctor-left-info-desc__title">执业兽医师</span> 
+								 <em class="font-bold doctor-left-info-desc__prescription">可开处方</em> <!---->
+							 </div> 
+							 <p class="doctor-left-info-hospital">执业编号：A012012210221</p> 
+								 <div class="doctor-left-info-tag">
+									 <p class="doctor-left-info-tag__pet">中国农业大学动物医院</p>
+								 </div> 
+								 <p class="doctor-left-info-expert otc2">擅长：猫外科：疾病、软组织外科以及骨科疾病；猫内科：呼吸道疾病、胃肠道疾病、防疫以及免疫领域。
+								 </p> 
+								 <div class="doctor-left-info-data">
+									 <div class="doctor-left-info-data-star">
+										 <span class="font-bold doctor-left-info-data-star__txt">
+										 	 <i class="fa fa-heart"></i>
+											4.85
+										 </span>
+									 </div> 
+									 <span class="after-line doctor-left-info-data__number">月回答
+										 <em class="font-bold doctor-left-info-data__number__txt">180</em>
+									 </span> 
+									 <span class="after-line doctor-left-info-data__number">月处方
+										 <em class="font-bold doctor-left-info-data__number__txt">104</em>
+									 </span>
+								 </div>
+							</div>
+					 </a> 
+						 <div class="doctor-tag">
+						     <span data-v-a35b4a4c="" class="doctor-tag__name">从业10年以上</span>
+						 </div> 
+						 <div class="doctor-bottom">
+						     <div class="doctor-bottom-price">
+						         <p class="doctor-bottom-price-type">
+									 <span class="font-bold">图文</span>
+									 <i class="font-bold price"> ¥29</i>
+								 </p> 
+								 <p class="doctor-bottom-price-type-phone">
+									 <span class="font-bold">电话</span>
+									 <i class="font-bold price"> ¥79</i>
+								 </p> 
+							 </div> 
+							 <div class="doctor-bottom-discount">
+								 <div class="font-bold doctor-bottom-discount__number">问医生</div>
+							 </div>
+						 </div>
+				 </div>
+		    </div>
+	    </div>
+	    </div>	
+	
+	
+		<!--在线药品处方模块---->
+        <div class="medicine" id="medicine">
+            <div class="container">
+                <h3 class="agile-title">在线药品处方</h3>
+				<!--在线宠医问诊模块--Box1选择药品 -->
+				<div class="channel-box">
+			        <p class="channel-title" >常见问题</p> 
+					<div class="commodityBox">
+						<div class="commodityBox-inside">
+							<div class="swiper-box">
+								<div class="swiper-item2">
+									<div class="swiper-img">
+										<div class="img-bg-model">
+											<div class="img-bg-all">
+												<div class="img-item">
+													<img class="img-bg" src="https://cdn.moguvet.com/drug/2020/10/049ab1e55b872e92f35b626a614d8afa.png" alt="">
+												</div> 
+												    <div class="img-placeholder">
+												</div>
+											</div>
+										</div>
+									</div> 
+									<div class="swiper-title otc">呕吐
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="commodityBox-inside">
+							<div class="swiper-box">
+								<div class="swiper-item2">
+									<div class="swiper-img">
+										<div class="img-bg-model">
+											<div class="img-bg-all">
+												<div class="img-item">
+													<div class="img-item">
+													    <img class="img-bg" src="https://cdn.moguvet.com/drug/2020/10/2d3a8f5eecbfaced1c7d8d6a700b7bed.JPG" alt="">
+												    </div>
+													
+												</div> 
+												     <div class="img-placeholder">
+												</div>
+											</div>
+										</div>
+									</div> 
+									<div class="swiper-title otc">腹泻</div>
+								</div>
+							</div>
+						</div>
+						<div class="commodityBox-inside">
+							<div class="swiper-box">
+								<div class="swiper-item2">
+									<div class="swiper-img">
+										<div class="img-bg-model">
+											<div class="img-bg-all">
+												<div class="img-item">
+													<div class="img-item">
+													    <img class="img-bg" src="https://cdn.moguvet.com/drug/2020/10/2d3a8f5eecbfaced1c7d8d6a700b7bed.JPG" alt="">
+												    </div>								
+												</div> 
+												<div class="img-placeholder"></div>
+											</div>
+										</div>
+									</div> 
+									<div class="swiper-title otc">咳嗽</div>
+								</div>
+							</div>
+						</div>
+						<div class="commodityBox-inside">
+							<div class="swiper-box">
+								<div class="swiper-item2">
+									<div class="swiper-img">
+										<div class="img-bg-model">
+											<div class="img-bg-all">
+												<div class="img-item">
+													<img class="img-bg" src="https://cdn.moguvet.com/drug/2020/10/82f4028ca3e1337dbbed22fc7cb235e7.JPG" alt="">
+												</div>	
+												<div class="img-placeholder"></div>
+											</div>
+										</div>
+									</div> 
+									<div class="swiper-title otc">呼吸道感染</div>
+								</div>
+							</div>
+						</div>
+						<div class="commodityBox-inside">
+							<div class="swiper-box">
+								<div class="swiper-item2">
+									<div class="swiper-img">
+										<div class="img-bg-model">
+											<div class="img-bg-all">
+												<div class="img-item">
+													<div class="img-item">
+												    <img class="img-bg" src="https://cdn.moguvet.com/drug/2020/10/049ab1e55b872e92f35b626a614d8afa.png" alt="">
+											        </div>
+												</div> 
+												<div class="img-placeholder"></div>
+											</div>
+										</div>
+									</div> 
+									<div class="swiper-title otc">黑下巴</div>
+								</div>
+							</div>
+						</div>
+						<div class="commodityBox-inside">
+							<div class="swiper-box">
+								<div class="swiper-item2">
+									<div class="swiper-img">
+										<div class="img-bg-model">
+											<div class="img-bg-all">
+												<div class="img-item">
+												 <img class="img-bg" src="https://cdn.moguvet.com/drug/2020/10/049ab1e55b872e92f35b626a614d8afa.png" alt="">   
+											    </div>
+												<div class="img-placeholder"></div>
+											</div>
+										</div>
+									</div> 
+									<div class="swiper-title otc">猫癣</div>
+								</div>
+							</div>
+						</div>
+						<div class="commodityBox-inside">
+							<div class="swiper-box">
+								<div class="swiper-item2">
+									<div class="swiper-img">
+										<div class="img-bg-model">
+											<div class="img-bg-all">
+												<div class="img-item">
+													<img class="img-bg" src="https://cdn.moguvet.com/drug/2020/10/72083e3c110f374801d4ac99c5bea550.JPG" alt="">
+												</div> 
+												<div class="img-placeholder"></div>
+											</div>
+										</div>
+									</div> 
+									<div class="swiper-title otc">肠炎</div>
+								</div>
+							</div>
+						</div>
+						<div class="commodityBox-inside">
+							<div class="swiper-box">
+								<div class="swiper-item2">
+									<div class="swiper-img">
+										<div class="img-bg-model">
+											<div class="img-bg-all">
+												<div class="img-item">
+													<div class="img-item">
+													    <img class="img-bg" src="https://cdn.moguvet.com/drug/2020/10/2b2850f96a78aecfa789f312ed125c02.JPG" alt="">
+												    </div>
+												</div> 
+												<div class="img-placeholder"></div>
+											</div>
+										</div>
+									</div> 
+									<div class="swiper-title otc">皮肤病</div>
+								</div>
+							</div>
+						</div> 
+					</div>
+				</div>
+                <div class="clearfix">
+                </div>
+                <!--在线宠医问诊模块--Box2选择药品 -->			
+			    <div class="channel-box">
+					<p class="channel-title">驱虫问题</p> 
+					<div class="list-box">
+						<div class="item">
+							<div class="item-font">蛔虫</div>
+						</div>
+						<div class="item">
+							<div class="item-font">蜱虫</div>
+						</div>
+						<div class="item">
+							<div class="item-font">跳蚤</div>
+						</div>
+						<div class="item">
+							<div class="item-font">耳螨</div>
+						</div>
+						<div class="item">
+							<div class="item-font">大宠爱</div>
+						</div>
+						<div class="item">
+							<div class="item-font">福来恩</div>
+						</div>
+					</div>
+			    </div>
+			    <div class="channel-box">
+					<p class="channel-title">皮肤病用药</p> 
+					<div class="list-box">
+						<div class="item">
+							<div class="item-font">猫癣</div>
+						</div>
+						<div class="item">
+							<div class="item-font">脂溢性皮炎</div>
+						</div>
+						<div class="item">
+							<div class="item-font">蠕形螨</div>
+						</div>
+						<div class="item">
+							<div class="item-font">脓皮症</div>
+						</div>
+						<div class="item">
+							<div class="item-font">细菌感染</div>
+						</div>
+						<div class="item">
+							<div class="item-font">真菌感染</div>
+						</div>
+					</div>
+			    </div>
+			    <div class="channel-box">
+			        <p class="channel-title">消化系统</p> 
+					<div class="list-box">
+						<div class="item">
+							<div class="item-font">呕吐</div>
+						</div>
+						<div class="item">
+							<div class="item-font">腹泻</div>
+						</div>
+						<div class="item">
+							<div class="item-font">便秘</div>
+						</div>
+						<div class="item">
+							<div class="item-font">尿道结石</div>
+						</div>
+						<div class="item">
+							<div class="item-font">顽固性腹泻</div>
+						</div>
+						<div class="item">
+							<div class="item-font">便血</div>
+						</div>
+					</div>
+			    </div>
+			    <div class="channel-box">
+					<p class="channel-title">内科疾病</p> 
+					<div class="list-box">
+						<div class="item">
+							<div class="item-font">肾衰竭</div>
+						</div>
+						<div class="item">
+							<div class="item-font">肝炎</div>
+						</div>
+						<div class="item">
+							<div class="item-font">黄疸</div>
+						</div>
+						<div class="item">
+							<div class="item-font">慢性胃炎</div>
+						</div>
+						<div class="item">
+							<div class="item-font">胰腺炎</div>
+						</div>
+						<div class="item">
+							<div class="item-font">肝脏问题</div>
+						</div>
+					</div>
+			    </div>	
+            </div>
+        </div>
+	    <!--在线药品处方模块--end-->
+		
+			
+        <!--宠物医院导航模块-->
+        <div class="map" id="map">
+            <div class="container">
+                <h3 class="agile-title">宠物医院导航</h3>
+			<!--在线宠医问诊模块--Box1预约页面 -->	
+		    <div class="banner-section">
+		        <div class="container">
+			        <div class="banner-heder">
+				        <h3>完善预约  放心直达宠物医院<span>select and make an appointment</span></h3>
+			        </div>
+			        <div class="banner-grids">
+				        <div class="col-md-2 banner-grid">
+					        <select class="sel">
+						        <option value="">西安</option>
+						        <option value="">北京</option>
+						        <option value="">上海</option>
+						        <option value="">石家庄</option>
+						        <option value="">杭州</option>
+					         </select>							
+				        </div>
+				        <div class="col-md-2 banner-grid">
+					        <select class="sel">
+						        <option value="">碑林区</option>
+						        <option value="">新城区</option>
+						        <option value="">高新区</option>
+						        <option value="">雁塔区</option>
+					        </select>								
+				        </div>
+				        <div class="col-md-2 banner-grid">
+					        <select class="sel">
+						        <option value="">诺威宠物医院</option>
+						        <option value="">爱它宠物医院</option>
+						        <option value="">宠家动物医院</option>
+					        </select>									
+				        </div>
+				        <div class="col-md-2 banner-grid">
+					        <select class="sel">
+						        <option value="">2023.3.2</option>
+						        <option value="">2023.4.2 </option>
+						        <option value="">2023.5.2</option>
+						        <option value="">2023.6.2</option>
+						        <option value="">2023.7.2</option>
+					        </select>									
+				        </div>
+				        <div class="col-md-4 search">
+					        <form action="#" method="post">
+						        <input type="submit" value="进行筛选预约">
+					        </form>
+				        </div>
+				        <div class="clearfix"></div>
+			        </div>
+		        </div>
+	        </div>
+			<!--在线宠医问诊模块--Box2详细服务 -->	
+			<div class="featured-services" id="services">
+				<div class="container">
+					<h3 class="tittle">线下预约服务</h3>
+					<div class="featured-grids">
+						<div class="col-md-3 featured-grid">
+							<div class="featured-grd">
+								<i class="fa fa-rmb"></i>
+								<h5>历史预约</h5>
+								<p>在此您可以查看您的历史预约资料单，按时间排序。您可以在此浏览</p>
+								<div class="more m2">
+									<a href="#" class="btn effect6" data-toggle="modal" data-target="#myModal1">Learn More</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 featured-grid">
+							<div class="featured-grd">
+								<i class="fa fa-ambulance"></i>
+								<h5>联系急救</h5>
+								<p>您订单中医院及医生的联系方式会在此显现，并能点击立即通话联系车辆</p>
+								<div class="more m2">
+									<a href="#" class="btn effect6" data-toggle="modal" data-target="#myModal1">Learn More</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 featured-grid">
+							<div class="featured-grd">
+								<i class="fa fa-table"></i>
+								<h5>历史病例</h5>
+								<p>这里记录着您历史订单中的病例详情，点击可查看猫猫就医信息电子档案</p>
+								<div class="more m2">
+									<a href="#" class="btn effect6" data-toggle="modal" data-target="#myModal1">Learn More</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 featured-grid">
+							<div class="featured-grd">
+								<i class="fa fa-globe"></i>
+								<h5>线下导航</h5>
+								<p>本功能支持外连接到高德地图，您可以点击直接搜索您的目的地</p>
+								<div class="more m2">
+									<a href="#" class="btn effect6" data-toggle="modal" data-target="#myModal1">Learn More</a>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		    </div>
+		</div>
+	    <!--宠物医院导航模块--end-->
+		
+
+		<!--边栏购物车-->
+	    <div class="side-pic">
+		    <div class="fab-van-image-van-image--mine">
+		        <img src="images/fab-mine.png" class="van-image__img" alt="">
+		    </div>
+		    <div class="fab-van-image-van-image--my-medicine">
+			    <img src="images/my-medicine.png" class="van-image__img" alt="">
+		    </div>
+		</div>
+
+		
+        <footer>
+           <div class="container">
+              <div class="col-md-4 footer-left">
+                 <h3>
+                     <a href="catme.html">Cat</a><span>Me</span> 
+                 </h3>
+                 <div class="footer-social-grids">
+                   <ul>
+                      <li><a href="#">邮箱</a></li><br>
+                      <li><em>3368693651@qq.com</em></li><br>
+                      <li><img src="images/wb.jpg" alt="wb" height="60px" width="60px"><a href="#">微博</a></li>
+                      <li><img src="images/gong.jpg" alt="gh"  height="60px" width="60px"><a href="#">微信公众号</a></li>
+                      <li><img src="images/ren.jpg" alt="kf"  height="60px" width="60px"><a href="#">官方客服微信</a></li>
+                   </ul>
+                 </div>
+              </div>
+          </div>
+        </footer>
+        <!-- footer -->
+       
+        <script src="js/responsiveslides.min.js"></script>
+        <script src="js/SmoothScroll.min.js"></script>
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <!-- here stars scrolling icon -->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                /*
+                var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+                };
+                */
+
+                $().UItoTop({ easingType: 'easeOutQuart' });
+
+            });
+        </script>
+        <!-- //here ends scrolling icon -->
+</body>
+</html>

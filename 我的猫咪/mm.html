@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="../猫圈/css/bulma.css" rel="stylesheet">
+        <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet" />
+		<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+   
+	</head>
+	
+	<body>
+        <div class="navbar has-shadow header-zk">
+          <div class="container container2">
+            <div class="navbar-menu">
+              <div class="navbar-start">
+                  <img src="images/maowologo.png" alt="猫窝logo" width="60" height="60">
+                  <a class="navbar-item is-tab is-size-3" href="../catme首页.html">首页</a>
+                  <a class="navbar-item is-active is-tab is-size-3" href="../我的猫咪/mm.html">我的猫咪</a>
+                  <a class="navbar-item is-tab is-size-3" href="../猫圈/猫圈.html">猫圈</a>
+                  <a class="navbar-item is-tab is-size-3" href="../商城/商城.html">商城</a>
+                  <a class="navbar-item is-tab is-size-3" href="../医疗/医疗.html">医疗</a>
+                  <a class="navbar-item is-tab is-size-3" href="../领养/领养.html">领养</a>
+              </div>
+              <div class="navbar-item">
+                <div class="field is-grouped ">
+                  <div class="control has-icons-right">
+                    <input type="text" class="input input11"  placeholder="搜索你感兴趣的内容...">
+                    <span class="icon is-right"> <i class="fa fa-search"></i> </span>
+                  </div>
+                  <div class="control">
+                    <input type="submit" class="button button11" value="GO" >
+                  </div>
+                </div>
+              </div>
+              <div class="navbar-end">
+                <a href="#" class="navbar-item">
+                      <i class="fa fa-15 fa-bell"></i><br>
+                消息 
+                </a> 
+                <a href="#" class="navbar-item">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <img src="../猫圈/images/tx.png" alt="我的" class="img11">
+                    </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">我的</a></li>
+                    <li><a href="#">设置</a></li>
+                    <li><a href="#">退出</a></li>
+                  </ul>
+                </li>
+                </a> 
+             </div>
+            </div>
+          </div>
+      </div>
+        
+        <!-- 我的猫咪档案模块 -->
+		<div class="container text-center demo">
+			<!-- 第一排档案 -->
+	        <div class="row">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 box-item">
+					<div class="box-item-inner">
+						<h3>名称 & 年龄</h3>
+						<div class="circle">
+							<div class="spinner">
+							</div>
+							<div class="img">
+								<img src="images/cat-02.png" alt=" " class="img-responsive">
+							</div>
+						</div>
+						<!-- 输入猫咪信息表 -->
+						<div class="button-input">
+						    <button type="button" class="open-button" data-bs-toggle="modal" data-bs-target="#myModal" onclick="openForm()">录入信息</button>
+						</div>
+						<!-- 显示猫咪信息表里的设置,表中展示输入设置 -->
+						<div class="set">
+						    <div class="firstset">
+						        <ul>
+							        <li>在此显示猫咪事项时间  <i class="fa fa-minus-square"></i></li>
+							        <li>在此显示猫咪事项时间  <i class="fa fa-minus-square"></i></li>
+									<li>在此显示猫咪事项时间  <i class="fa fa-minus-square"></i></li>
+									<li><i class="fa fa-plus-square"></i></li>
+						        </ul>
+						    </div>
+						</div>
+						<h3>折叠</h3>
+					</div>			
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 box-item">
+				    <div class="box-item-inner">
+					    <h3>奶糖 & 银渐层</h3>
+					    <div class="circle">
+						    <div class="spinner">
+						    </div>
+						    <div class="img">
+							    <img src="images/small-cat1.jpg" alt=" " class="img-responsive">
+						    </div>
+					    </div>
+					    <!-- 输入猫咪信息表 -->
+					    <div class="button-input">
+					        <button type="button" class="open-button" data-bs-toggle="modal" data-bs-target="#myModal" onclick="openForm()">录入信息</button>
+					    </div>
+					    <!-- 显示猫咪信息表里的设置,表1展示输入设置 -->
+					    <div class="set">
+					        <div class="firstset">
+					            <ul>
+						            <ul>
+						                <li>
+						       		        <a class="gradient-link" href="#">铲屎：今日-17:00</a>
+						       		        <i class="fa fa-minus-square"></i>
+						       	        </li>
+						       	        <li>
+						       		        <b>罐头：</b>每日-12:00 & 18:00
+						       		        <i class="fa fa-minus-square"></i>
+						       	        </li>
+						                <li>
+						       		        <b>玩具：</b>每日-19:00
+						       		        <i class="fa fa-minus-square"></i>
+						       	        </li>
+						                <li>
+										    <i class="fa fa-plus-square"></i>
+									    </li>
+						           </ul>  
+					            </ul>
+					        </div>
+					    </div>
+					    <h3>折叠</h3>
+				    </div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 box-item">
+					<div class="box-item-inner">
+					    <h3>花卷 & 奶牛猫</h3>
+					    <div class="circle">
+						    <div class="spinner">			
+						    </div>
+						    <div class="img">
+							    <img src="images/big-cat1.jpg" alt=" " class="img-responsive">
+						    </div>
+					    </div>
+					    <!-- 输入猫咪信息表 -->
+					    <div class="button-input">
+					        <button type="button" class="open-button" data-bs-toggle="modal" data-bs-target="#myModal" onclick="openForm()">录入信息</button>
+					    </div>
+					    <!-- 显示猫咪信息表里的设置,表1展示输入设置 -->
+					    <div class="set">
+					        <div class="firstset">
+					      -     <ul>
+					          	    <li>喂食：每日-13:00<i class="fa fa-minus-square"></i></li>	
+					                <li>绝育：8.17-19:00<i class="fa fa-minus-square"></i></li>
+					       	        <li>就医：2/3-8:00
+					       		        <i>天天宠物医院-陈医生</i>
+					       		        <i class="fa fa-minus-square"></i>
+					       	        </li>
+					            </ul>
+					        </div>
+					    </div>
+					    <h3>折叠</h3>
+				    </div>
+				</div>
+			</div>
+			<!-- 第二排档案 -->
+			<div class="row">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 box-item">
+					<div class="box-item-inner">
+						<h3>Candy & 布偶猫</h3>
+						<div class="circle">
+							<div class="spinner">
+							</div>
+							<div class="img">
+								<img src="images/buou-cat.jpg" alt=" " class="img-responsive">
+							</div>
+						</div>
+						<!-- 输入猫咪信息表 -->
+						<div class="button-input">
+						    <button type="button" class="open-button" data-bs-toggle="modal" data-bs-target="#myModal" onclick="openForm()">录入信息</button>
+						</div>
+						<!-- 显示猫咪信息表里的设置,表1展示输入设置 -->
+						<div class="set">
+						    <div class="firstset">
+						        <ul>
+						            <li>
+						        		<a class="gradient-link" href="#">铲屎：今日-17:00</a>
+						        		<i class="fa fa-minus-square"></i>
+						        	</li>
+						        	<li><b>罐头：</b>每日-12:00 & 18:00<i class="fa fa-minus-square"></i></li>
+						            <li><b>玩具：</b>每日-19:00<i class="fa fa-minus-square"></i></li>
+						            <li><i class="fa fa-plus-square"></i></li>
+						        </ul>  
+						    </div>
+						</div>
+						<h3>折叠</h3>
+					</div>			
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 box-item">
+				    <div class="box-item-inner">
+					    <h3>跳跳 & 三花猫</h3>
+					    <div class="circle">
+						    <div class="spinner">
+						    </div>
+						    <div class="img">
+							    <img src="images/sanhua-cat.jpg" alt=" " class="img-responsive">
+						    </div>
+					    </div>
+					    <!-- 输入猫咪信息表 -->
+					    <div class="button-input">
+					        <button type="button" class="open-button" data-bs-toggle="modal" data-bs-target="#myModal" onclick="openForm()">录入信息</button>
+					    </div>
+					    <!-- 显示猫咪信息表里的设置,表1展示输入设置 -->
+					    <div class="set">
+					    <div class="firstset">
+					       <ul>
+					           <li><b>内驱：</b>6/9-10:00<i class="fa fa-minus-square"></i></li>
+					           <li><s>洗澡：已完成 </s><i class="fa fa-minus-square"></i></li>
+					           <li><s>绝育：已完成 </s><i class="fa fa-minus-square"></i></li>
+					       	   <li><i class="fa fa-plus-square"></i></li>
+					       </ul>
+					    </div>
+					    </div>
+					    <h3>折叠</h3>
+				    </div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 box-item">
+					<div class="box-item-inner">
+					<h3>创建新的猫咪档案</h3>
+					    <div class="circle">
+						    <div class="spinner">			
+						    </div>
+						    <div class="img">
+							    <img src="images/r-cat(1)(1).jpg" alt=" " class="img-responsive">
+						    </div>
+					    </div>
+				    </div>
+				</div>
+			</div>
+		</div>
+		
+		<br/><br/><br/>
+		
+		<!--提醒功能补充模块 -->
+		<div class="about" id="about">
+		    <div class="container">
+			    <div class="about-main">
+				    <h2><b>提醒功能补充</b></h2>
+			        	<div class="about-bottom row">
+				            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 about-left">
+								<div class="img-position">
+					                <img src="images/remindA(1).png" alt=" " class="position">
+								</div>
+				                <p> 点击“闹钟”按钮，在屏幕中央出现二级弹窗，分别确定“开始时间”的年月日与“提醒时间”，为滚轮设计可以自选；且“重复”功能可以设定不同的重复形式；“提示音”功能可以自选提示音且确定音量。</p>
+				            </div>
+				            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 about-right">
+				                <div class="about-grid">
+				    	            <div class="about-box">
+				    		            <h5><span class="ab-box">01</span></h5>
+				    	            </div>
+				    	            <div class="about-text">
+				    		            <h4>时间设置规则</h4>
+				    		            <p>本功能主要帮助用户更好地个性化管理猫咪们。参照“滴答清单”等成熟的时间提醒管理功能制作，预设了猫咪领养购买、衣食住行、医疗保健等方方面面的事件，再也不用担心百忙之中漏掉与猫咪一起经历的日常琐事啦！</p>
+				    	            </div>
+				                    <div class="clearfix">  
+						            </div>
+				                </div>
+				                <div class="about-grid ab-more">
+				    	            <div class="about-box">
+				    		            <h5><span class="ab-box">02</span></h5>
+				    	            </div>
+				    	            <div class="about-text">
+				    		            <h4>紧急提醒高亮</h4>
+				    		            <p>本功能为事项优先设置，您设置“高优先度”的功能会在提示栏里置顶显示为红色。在完成每项提醒后您再次点击该事件即可删除已完成事件，误触双击即可恢复。</p>
+				    	            </div>
+				                    <div class="clearfix">  
+									</div>
+				                </div>
+				                <div class="about-grid">
+				    	            <div class="about-box">
+				    		            <h5><span class="ab-box">03</span></h5>
+				    	            </div>
+				    	            <div class="about-text">
+				    		            <h4>备注个性定制</h4>
+				    		            <p>本功能相当于您提醒事项的小小备忘录，您可以对需要再进一步说明的事项进行补充。如在“喂食”中直接输入猫咪每周的食谱配餐、在“就医”中直接输入医院的位置、科室与医嘱等等。</p>
+				    	            </div>
+				                    <div class="clearfix">  
+									</div>
+				                </div>
+				            </div>
+			            </div>
+			    <div class="clearfix">  
+				</div>
+			    </div>
+		    </div>
+		</div>	
+		
+		<!--弹窗录入信息模块 -->
+		<a href="#" id="toTop"><span id="toTopHover"></span>To Top</a>
+		<div class="modal" id="myModal">
+			<div class="modal-dialog  modal-dialog-centered modal-lg">
+			    <div class="modal-content">
+		            <div class="form-popup" id="myForm">
+			            <form action="/action_page.php" class="form-container"><!--提交表单时，表单数据会提交到名为 "action_page.php" 的页面--->
+				-       <h3>提醒事项-Alert</h3>
+				        <section>
+					        <div class="Alert-function" >
+						        <div class="row">
+					                <div class="Alert-item col-md-3">
+						                <label for="psw"><b>罐头</b></label>
+						                <input type="password" placeholder="" name="psw" required>
+						                <label for="psw"><i class="fa fa-clock-o"></i></label>
+					                </div>
+					                <div class="Alert-item col-md-3">
+						                <label for="psw"><b>喂食</b></label>
+						                <input type="password" placeholder="" name="psw" required>
+						                <label for="psw"><i class="fa fa-clock-o"></i></label>
+					                </div>
+					                <div class="Alert-item col-md-3">
+						                <label for="psw"><b>玩具</b></label>
+					                    <input type="password" placeholder="" name="psw" required>
+						                <label for="psw"><i class="fa fa-clock-o"></i></label>
+					                </div>
+					                <div class="Alert-item col-md-3">
+						                <label for="psw"><b>铲屎</b></label>
+						                <input type="password" placeholder="" name="psw" required>
+						                <label for="psw"><i class="fa fa-clock-o"></i></label>
+					                </div>
+					            </div>
+					        </div>	
+				            <div class="Alert-function" >
+					            <div class="row">
+				                    <div class="Alert-item col-md-3">
+					                    <label for="psw"><b>内驱</b></label>
+					                    <input type="password" placeholder="" name="psw" required>
+					                    <label for="psw"><i class="fa fa-clock-o"></i></label>
+				                    </div>
+				                    <div class="Alert-item col-md-3">
+					                    <label for="psw"><b>洗澡</b></label>
+					                    <input type="password" placeholder="" name="psw" required>
+					                    <label for="psw"><i class="fa fa-clock-o"></i></label>
+				                    </div>
+				                    <div class="Alert-item col-md-3">
+					                    <label for="psw"><b>刷牙</b></label>
+				                        <input type="password" placeholder="" name="psw" required>
+				                     	<label for="psw"><i class="fa fa-clock-o"></i></label>
+				                    </div>
+				                    <div class="Alert-item col-md-3">
+					                    <label for="psw"><b>剪指甲</b></label>
+					                    <input type="password" placeholder="" name="psw" required>
+				             	        <label for="psw"><i class="fa fa-clock-o"></i></label>
+				                    </div>
+				                </div>
+				            </div>
+				            <div class="Alert-function" >
+					            <div class="row">
+				                    <div class="Alert-item col-md-3">
+					                    <label for="psw"><b>就医</b></label>
+				         	            <input type="password" placeholder="" name="psw" required>
+				                     	<label for="psw"><i class="fa fa-clock-o"></i></label>
+			         	            </div>
+				                    <div class="Alert-item col-md-3">
+				                       	<label for="psw"><b>绝育</b></label>
+				         	            <input type="password" placeholder="" name="psw" required>
+				        	            <label for="psw"><i class="fa fa-clock-o"></i></label>
+				                    </div>
+				                    <div class="Alert-item col-md-3">
+					                    <label for="psw"><b>生日</b></label>
+				                        <input type="password" placeholder="" name="psw" required>
+				                     	<label for="psw"><i class="fa fa-clock-o"></i></label>
+				                    </div>
+				                    <div class="Alert-item col-md-3">
+				         	            <label for="psw"><b>自定义</b></label>
+				         	            <input type="password" placeholder="" name="psw" required>
+					                    <label for="psw"><i class="fa fa-clock-o"></i></label>
+				                    </div>
+				                </div>
+				            </div>
+					        <div class="modal-footer">
+					            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">关闭</button>
+					            <button type="button" class="btn btn-success" data-bs-dismiss="modal">确定</button>
+					        </div>
+				        </section>
+			            </form>
+		            </div>					
+		        </div>
+		    </div>
+		</div>
+		
+		<footer>
+         <div class="container">
+            <div class="col-md-4 footer-left">
+               <h3>
+                   <a href="catme.html">Cat</a><span>Me</span> 
+               </h3>
+               <div class="footer-social-grids">
+                 <ul>
+                    <li><a href="#">邮箱</a></li><br>
+                    <li>3368693651@qq.com</li><br>
+                    <li><img src="../猫圈/images/wb.jpg" alt="wb" height="60px" width="60px"><a href="#">微博</a></li>
+                    <li><img src="../猫圈/images/gong.jpg" alt="gh"  height="60px" width="60px"><a href="#">微信公众号</a></li>
+                    <li><img src="../猫圈/images/ren.jpg" alt="kf"  height="60px" width="60px"><a href="#">官方客服微信</a></li>
+                 </ul>
+               </div>
+            </div>
+        </div>
+      </footer>
+		
+		<script>
+		        $(window).on('load', function() {
+		            $("body").removeClass("demo");
+		        });
+		</script>
+	</body>
+</html>

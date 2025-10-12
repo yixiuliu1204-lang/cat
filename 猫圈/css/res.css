@@ -1,0 +1,87 @@
+
+
+@media(max-width:991px){
+	.w3layouts-logo h1 a {
+		display: none;
+	}
+	
+	html{
+		font-size: 10px;
+	}
+	
+	.agileits-banner-info h3 {
+		font-size: 5em;
+	}
+	
+	.header-left {
+		width: 22%;
+	}
+	.w3layouts-logo h1 a {
+		font-size: 1em;
+	}
+	.header-right {
+		width: 78%;
+	}
+	.top-nav ul li {
+		margin: 0 .5em;
+	}
+	
+	.footer-left:nth-child(2) {
+		margin: 2em 0;
+	}
+	
+
+}
+@media (max-width:767px){
+    .nav2{
+        display: none!important;
+    }
+    .dc{
+        display: flex!important;
+    }
+    
+    .w3ls-heading h2,.w3ls-heading h3,.agileits-about-top-heading h3{
+	color: #2f2f2f;
+    font-size: 2em;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+	.top-nav{
+    
+    float: left;
+}
+
+	h1, .h1, h2, .h2, h3, .h3 {
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+	
+	h2.typoh2 {
+			font-size: 1.5em;
+		}
+	
+	}
+	
+@media (max-width:384px){
+	html{
+		font-size: 6px;
+	}
+	.w3layouts-logo h1 a {
+		font-size: 0.5em;
+	}
+	
+	.alert,p {
+		font-size: 14px;
+	}
+	
+	
+	.agileits-banner-info h3 {
+		font-size: 2em;
+	}
+	
+	
+}
+
+
+/*-- //responsive --*/

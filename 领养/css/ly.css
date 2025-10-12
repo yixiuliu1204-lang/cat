@@ -1,0 +1,413 @@
+
+.header-zk{
+	display: flex!important;
+	position:fixed!important;
+	top:0;
+	width: 100vw;
+	z-index: 999;
+	height:auto;
+}
+
+.header-zk>.container {
+    flex-direction: column;
+    width:inherit;
+    display: flex;
+ 
+    min-height: 3.25rem;
+    
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-menu{
+	display: flex!important;
+}
+.navbar-start,.navbar-end{
+	display: flex;
+	flex: 1 1 1;
+}
+
+.navbar2{
+    margin-left: 0!important;
+}
+
+
+
+a:hover{
+	color: #DF1619!important;
+	
+}
+a{
+    text-decoration: none!important;
+    color:rgba(71,71,71,1.00);
+}
+.is-tab{
+	border-bottom-color:#F9F9F9!important; 
+}
+.is-active{
+	color:#EA2023!important;
+}
+
+.navbar-menu{
+	display: flex!important;
+}
+.navbar-start,.navbar-end{
+	display: flex;
+	flex: 1 1 1;
+}
+
+html, body{
+    font-size: 10px!important;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.body1 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../image/特写小猫在篮子里.jpg") fixed no-repeat, rgba(0, 0, 0, 0.7);
+
+    background-size: 100% 100%;
+    z-index: 1;
+
+}
+
+.lypt {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px 0 0 0;
+}
+
+.lypt img {
+    width: 200px;
+    height: 95px;
+}
+
+
+
+.body1 .text h3 {
+    color: rgba(255, 255, 255);
+    opacity: 0.57;
+    font-size: 5em;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+
+
+
+}
+
+.body1 .text h3 span {
+    display: flex;
+    font-size: .15em !important;
+    margin: 2.5em 0 1em 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-weight: 600;
+    color: #FFFFFF !important;
+}
+
+.notice-img {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.notice-img img {
+    width: 176px;
+    height: 80px;
+
+}
+
+.notice-text {
+    margin: 35px;
+    padding: 0 0 10px 0;
+    font-size: 14px;
+    line-height: 40px;
+    color: #455d4e;
+    word-spacing: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.box {
+    width: 266px;
+    height: 300px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+}
+
+.container {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 70px;
+}
+footer>.container {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 10px;
+}
+
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.details img {
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+
+.details strong {
+    font-weight: 500;
+    color: #141414;
+    letter-spacing: 1px;
+    margin: 15px 0 0 0;
+}
+
+.details p {
+    font-size: 0.8rem;
+    color: #7a7a7a;
+    margin: 5px 0px;
+}
+
+.buttom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttom button {}
+
+
+.box button {
+    margin-top: 24px;
+    height: 26px;
+    width: 80px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(250, 168, 5, 0.848);
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.4s;
+
+    font-size: 13px;
+
+}
+
+.box button:hover {
+    background-color: rgba(184, 158, 11, 0.918);
+}
+
+.input11{
+    width: 15rem!important;
+}
+.button11{
+    background-color: #E31114!important;
+    color:#fff!important;
+}
+.img11{
+    bottom: 1em!important;}
+
+
+footer{
+	background:#292a2c;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.footer-left h3{
+	margin:0;
+}
+.footer-left h3 a {
+	color: #FFFFFF;
+    font-size: 5em;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.footer-left h3 span {
+    font-weight: 300;
+    font-size: 3em!important;
+    text-transform: uppercase;
+    color: #FFFFFF!important;
+}
+.footer-social-grids {
+    margin: 1em 0 0 0;
+}
+.footer-social-grids ul {
+    padding: 0;
+    margin: 0;
+}
+.footer-social-grids ul li {
+    display: inline-block !important;
+    margin: 0 .5em 0 0 !important;
+    color: aliceblue;
+}
+.footer-social-grids ul li a {
+    text-align: center;
+}
+.footer-social-grids ul li a i.fa.fa-facebook, .footer-social-grids ul li a i.fa.fa-twitter, .footer-social-grids ul li a i.fa.fa-rss{
+    height: 30px;
+    width: 30px;
+    border: solid 2px #b5b5b5;
+    line-height: 29px;
+    background: none;
+    color: #b5b5b5;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.footer-social-grids ul li a i.fa.fa-facebook:hover {
+	border: solid 2px #3b5998;
+	background:#3b5998;
+    color: #FFFFFF;
+}
+.footer-social-grids ul li a i.fa.fa-twitter:hover{
+	border: solid 2px #55acee;
+	background:#55acee;
+	color: #FFFFFF;
+}
+.footer-social-grids ul li a i.fa.fa-rss:hover{
+	border: solid 2px #f26522;
+	background:#f26522;
+	color: #FFFFFF;
+}
+.footer-left h4{
+	color:#FFFFFF;
+	font-size:1.5em;
+	font-weight:600;
+	margin:0 0 1em 0;
+	font-family: 'Raleway', sans-serif;
+}
+.footer-left ul{
+	padding:0;
+	margin:0;
+}
+.footer-left ul li{
+	display:block;
+	margin:.5em 0;
+}
+.footer-left ul li a{
+	color: #b5b5b5;
+    font-size: 1em;
+    text-decoration: none;
+}
+.footer-left ul li a:hover{
+	color:#FFFFFF;
+}
+.footer-grid-left {
+    padding-left: 0;
+}
+.footer-left p {
+    color: #b5b5b5;
+    font-size: .9em;
+    margin: 0 0 1em 0;
+}
+.footer-left input[type="email"] {
+    display: inline-block;
+    background: #FFFFFF;
+    width: 70%;
+    outline: none;
+    padding: .5em;
+    font-size: .9em;
+    color: #999999;
+    border: solid 1px #FFFFFF;
+}
+.footer-left button.btn1 {
+    color: #FFFFFF;
+    font-size: .9em;
+    
+    padding: .5em 1em;
+    text-align: center;
+    text-decoration: none;
+    background: #F44336;
+    border: solid 1px #F44336;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.footer-left button.btn1:hover {
+    background: none;
+    color: #FFFFFF;
+    border: solid 1px #FFFFFF;
+}
+footer>.container{
+    align-items:center!important;
+    display: flex!important;
+    justify-content: center;
+    width: auto;
+   
+}
+footer>.container .footer-left{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+}
+footer>.container .footer-left>div{
+    width: auto;
+    margin-left: 3rem;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .banner {
+        background: url(image/裁剪图像的手触摸猫爪.jpg) no-repeat center;
+        height: 55vh;
+    }
+
+    .banner .text {
+        display: none;
+    }
+
+    .box {
+        flex-grow: 0.7;
+    }
+
+    .container {
+        margin: 0
+    }
+
+
+}

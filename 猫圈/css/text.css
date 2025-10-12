@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	overflow-x: hidden!important;
+	overflow-y: scroll!important;
+}
+a:hover{
+	color: #DF1619!important;	
+}
+button{
+	min-height: 36px;
+    min-width: 80px;
+	border:0;
+    border-radius: 6px;
+}
+.button12{
+    margin: 0;
+   
+}
+.ztext p{
+    margin: 1.5em 0;
+    font-size: 1.5em;
+    
+}
+.Post-content{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	
+	
+}
+
+
+.Post-Header-Wrapper{
+	display: flex;
+	position:fixed;top: 0;left: 0;
+	height:auto;
+	background-color: white;
+	width:100%;
+	box-shadow: 0 0 4px;
+}
+.Post-Header-Wrapper .ColumnPageHeader{
+	padding: 0 30px;
+	display: flex;
+}
+.Post-Header-Wrapper .ColumnPageHeader a{
+    color:#6B3E3F;
+    text-decoration: none;
+}
+
+.Post-Header-Wrapper .ColumnPageHeader button{
+	border :0;
+	background-color: #fff;
+	position: absolute;right:4%;bottom:0;
+}
+.Post-Header-Wrapper div{
+	display: flex;
+}
+
+
+/*文*/
+header{
+	display: flex;
+	flex-direction: column;
+}
+header>.Post-Author{
+	display: inline-flex;
+	right:0px;
+	left:0px;
+}
+header>.Post-Author .AuthorInfo{
+	display: inline-flex;
+}
+header>.Post-Author .AuthorInfo img{
+	width: 4em;
+	height: 4em;
+	margin: 5px;
+	border: 2px;
+	border-radius: 50%;
+}
+header>.Post-Author .AuthorInfo .AuthorInfo-name{
+	align-self: center;	
+}
+header>.Post-Author .gz{
+	align-self: center;
+	position: relative;left: 64em;
+}
+
+
+.article-content{
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5%;
+}
+
+.ContentItem-actions{
+	display: flex;
+	justify-content: flex-end;
+}
+.ContentItem-actions>button{
+	margin-left: 2em;
+}
+
+
+
+/*评论*/
+
+.Post--comment{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.Post--comment .Comments-container{
+	 box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+	 border-radius: 6px;
+	 margin-top: 2em;
+	 margin-bottom: 2em;
+	
+	 padding: 2em 1.4em 2em .7em;
+}
+
+
+.comment-header{
+	display: flex;
+	justify-content: space-between;
+	height:4rem;
+	border-bottom: 1px dashed #666;
+	
+}
+.comment-header>div{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.comment-header>div button{
+	margin-left: .6em;
+}
+
+
+
+.comment-send{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 97.5%;
+	border: 0!important;
+}
+.title-img{
+	flex:1;
+	
+}
+
+.title-img img{
+	width: 5em;
+	height: 5em;
+	margin: 5px;
+	border:2px;
+	border-radius: 2px;
+}
+.comment-input{
+	display: inline-flex;
+	flex:2;
+	align-self: center;
+	justify-content: space-between;
+}
+.comment-input>input{
+	width: 100%!important;
+	height: 3.3em;
+}
+.comment-input>button{
+	width:8em;
+	height: 3.3em;
+	
+}
+
+
+.comment-content{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	
+}
+
+.comment-content1{
+	display: flex;
+	margin-bottom: 3em;
+	margin-top: 3em;
+}
+.c-button{
+	text-align: right;
+	margin-top: -4em;
+}
+
+.comment-content1 img{
+	width: 3em;
+	height: 3em;
+	margin: 5px;
+	border:1px;
+	border-radius: 2px;
+}
+
+
+
+
+
+/*推荐*/
+.Recommendations-Main{
+	display: flex;
+	flex-direction: column;
+	background-color:#f6f6f6;
+	margin-bottom: 10em;
+	margin-top: 5em;
+}
+.Recommendations-Main ul{
+	display:inline-flex;
+    bottom: 10%;
+}
+.Recommendations-Main ul a{
+	border-radius: 5%;
+	box-shadow: 0 0 5px;
+	width: 20%;
+	height: 90%;
+	margin: 20px;
+	overflow: hidden;
+	color: #000000;
+}
+.Recommendations-Main ul a:hover{
+	
+	box-shadow: 0 0 5px;
+	width: 23%;
+	height: 93%;
+	margin: 15px;
+	
+}
+.Recommendations-Main ul a div{
+	padding-bottom: 0;
+}
+.PostItem-TitleImage{
+	width: 100%;
+}

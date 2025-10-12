@@ -1,0 +1,704 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="css/catshop.css">
+    <link href="../猫圈/css/bulma.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script> 
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>CatMeShop</title>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script> 
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){		
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script> 
+  </head>
+  
+  <body>
+    <div class="navbar has-shadow header-zk">
+      <div class="container">
+        <div class="navbar-menu">
+          <div class="navbar-start">
+              <img src="../猫圈/images/maowologo.png" alt="猫窝logo" width="60" height="60">
+              <a class="navbar-item is-tab is-size-3" href="../catme首页.html">首页</a>
+              <a class="navbar-item is-tab is-size-3" href="../我的猫咪/mm.html">我的猫咪</a>
+              <a class="navbar-item is-tab is-size-3" href="../猫圈/猫圈.html">猫圈</a>
+              <a class="navbar-item is-active is-tab is-size-3" href="../商城/商城.html">商城</a>
+              <a class="navbar-item is-tab is-size-3" href="../医疗/医疗.html">医疗</a>
+              <a class="navbar-item  is-tab is-size-3" href="../领养/领养.html">领养</a>
+          </div>
+          <div class="navbar-item">
+            <div class="field is-grouped ">
+              <div class="control has-icons-right">
+                <input type="text" class="input input11"  placeholder="搜索你感兴趣的内容...">
+                <span class="icon is-right">
+                    <i class="fa fa-search"></i>
+                </span> 
+              </div>
+              <div class="control">
+                <input type="submit" class="button button11" value="GO" >
+              </div>
+            </div>
+          </div>
+          <div class="navbar-end"> 
+            <a href="#" class="navbar-item">
+                <i class="fa fa-15 fa-bell"></i><br>
+            消息 
+            </a>
+            <a href="#" class="navbar-item" >
+                <li class="dropdown"> 
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <img src="../猫圈/images/tx.png" class="img11" alt="我的" >
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">我的</a></li>
+                    <li><a href="#">设置</a></li>
+                    <li><a href="#">退出</a></li>
+                  </ul>
+                </li>
+            </a> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-v-3b5c3e01="" data-v-2fb22820="">
+      <div data-v-3b5c3e01="" class="fab van-image van-image--round fab11" >
+        <img src="image/gw.png" alt="" class="van-image__img van-image__img11">
+      </div>
+    </div>
+
+    <div class="banner1">
+      <div class="wrap">
+        <div class="banner-box">
+          <div class="slide">
+            <ul>
+              <li> <a href="#">猫咪主粮</a>
+                  <i class="iconfont">&#xe648;</i>
+                <div class="slide-list">
+                  <ul>
+                    <li>
+                        <a href="#">
+                            <span a class="nall">进口猫粮</span>
+                            <img src="image/corn1.jpg"  alt=" " class="nall"/>
+                            <span>老年猫</span>
+                            <span>｜ 幼猫</span>
+                            <span>｜ 成猫</span>
+                            <span>｜ 全猫</span>
+                            <span>｜ 冻干粮</span>
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="nall">国产猫粮</span>
+                            <img src="image/corn2.jpg" alt="" class="nall"/>
+                            <span>奶糕粮</span>
+                            <span>｜ 奶猫</span>
+                            <span>｜ 幼猫</span>
+                            <span>｜ 成猫</span>
+                            <span>｜ 全年龄猫</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="nall">功能猫粮</span>
+                            <img src="image/corn3.png" alt="" class="nall"/>
+                            <span>肠胃</span>
+                            <span>｜ 泌尿</span>
+                            <span>｜ 肥胖</span>
+                            <span>｜ 毛球</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="nall">主食罐头</span>
+                            <img src="image/corn4.jpg" alt="" class="nall"/>
+                            <span>新西兰罐</span>
+                            <span>｜ 德罐</span> 
+                            <span>｜ 其他</span>
+                        </a> 
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li> 
+                  <a href="#">猫咪零食</a>
+                  <i class="iconfont">&#xe648;</i>
+                <div class="slide-list">
+                  <ul>
+                    <li> 
+                        <a href="#"> 
+                            <span>罐头湿粮</span>
+                            <img src="image/food1.jpg" alt="" class="nall"/>
+                            <span>汤汁补水罐</span> 
+                            <span>｜ 啫喱罐</span>
+                            <span>｜ 慕斯罐</span>
+                            <span>｜ 餐盒妙鲜包</span>
+                            <span>｜ 猫条</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>猫草薄荷</span>
+                            <img src="image/food4.jpg" alt="" class="nall"/>
+                            <span>猫薄荷</span>
+                            <span>｜ 木天蓼</span>
+                            <span>｜ 猫草/猫草盆</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>肉类零食</span>
+                            <img src="image/food2.jpg" alt="" class="nall"/>
+                            <span>小鱼/虾干</span>
+                            <span>｜ 冻干</span>
+                            <span>｜ 鲜肉</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>美味点心</span>
+                            <img src="image/food3.jpg" alt="" class="nall"/>
+                            <span>奶酪零食</span>
+                            <span>｜ 夹心酥</span>
+                            <span>｜ 饼干</span>
+                            <span>｜ 布丁</span>
+                            <span>｜ 猫咪饮料</span>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li> <a href="#">医疗护理</a><i class="iconfont">&#xe648;</i>
+                <div class="slide-list">
+                  <ul>
+                    <li>
+                        <a href="#">
+                            <span>皮肤治疗</span>
+                            <img src="image/health3.jpg" alt="" class="nall"/>
+                            <span>螨虫</span>
+                            <span>｜ 寄生虫</span> 
+                            <span>｜ 皮肤修复</span>
+                            <span>｜ 综合防治</span>
+                        </a>
+                      </li>
+                    <li>
+                        <a href="#">
+                            <span>安全驱虫</span>
+                            <img src="image/health2.jpg"  alt="" class="nall"/>
+                            <span>体外驱虫</span>
+                            <span>｜ 体内驱虫</span>
+                            <span>｜ 环境驱虫</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>五官护理</span>
+                            <img src="image/health1.jpg" alt="" class="nall"/>
+                            <span>日常清洁</span>
+                            <span>｜ 耳部炎症</span>
+                            <span>｜ 洗耳水</span>
+                            <span>｜ 拔耳粉</span>
+                        </a>
+                    </li>
+                    <li> 
+                        <a href="#"> 
+                            <span>家庭常备</span>
+                            <img src="image/health4.jpg" alt="" class="nall"/>
+                            <span>感冒药</span>
+                            <span>｜ 止泻药</span> 
+                            <span>｜ 喂药工具</span> 
+                            <span>｜ 伊丽莎白圈</span> 
+                        </a> 
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li> <a href="#">保健营养</a><i class="iconfont">&#xe648;</i>
+                <div class="slide-list">
+                  <ul>
+                    <li> <a href="#"> <span>强化免疫</span> <img src="image/nui1.jpg" class="nall"/> <span>胶囊</span> <span>｜ 牛磺酸</span> <span>｜ 尿道护理</span> <span>｜ 猫安</span> </a> </li>
+                    <li> <a href="#"> <span>补钙健骨</span> <img src="image/nui2.jpg" class="nall"/> <span>钙粉</span> <span>｜ 钙片</span> <span>｜ 钙膏</span> <span>｜ 液体钙</span> </a> </li>
+                    <li> <a href="#"> <span>美毛化毛</span> <img src="image/nui3.jpg" class="nall"/> <span>化毛片</span> <span>｜ 化毛膏</span> <span>｜ 美毛粉</span> <span>｜ 美毛膏</span> <span>｜ 鱼油</span> </a> </li>
+                    <li> <a href="#"> <span>肠胃调理</span> <img src="image/nui4.jpg" class="nall"/> <span>益生菌</span> <span>｜ 消食片</span> <span>｜ 整肠片/ 粉</span> </a> </li>
+                  </ul>
+                </div>
+              </li>
+              <li> <a href="#">猫砂猫厕&nbsp;</a><i class="iconfont">&#xe648;</i>
+                <div class="slide-list">
+                  <ul>
+                    <li> <a href="#"> <span>猫咪猫砂</span> <img src="image/wc1.jpg" class="nall"/> <span>膨润土</span> <span>｜ 水晶砂</span> <span>｜ 植物砂</span> <span>｜ 豆腐砂</span> <span>｜ 松木砂</span> </a> </li>
+                    <li> <a href="#"> <span>猫咪厕所</span> <img src="image/wc2.jpg" class="nall"/> <span>开放式</span> <span>｜ 封闭式</span> <span>｜ 半封闭式</span> </a> </li>
+                    <li> <a href="#"> <span>清洁除臭</span> <img src="image/wc3.jpg" class="nall"/> <span>免洗手凝露</span> <span>｜ 尿片</span> <span>｜ 湿巾</span> <span>｜ 训导剂</span> <span>｜ 除臭消毒</span> </a> </li>
+                  </ul>
+                </div>
+              </li>
+              <li> <a href="#">生活日用</a><i class="iconfont">&#xe648;</i>
+                <div class="slide-list">
+                  <ul>
+                    <li> <a href="#"> <span>猫咪餐具</span> <img src="image/life1.jpg" class="nall"/> <span>奶瓶</span> <span>｜ 饮水器</span> <span>｜ 自动喂食器</span> <span>｜ 储粮用品</span> <span>｜ 组合餐具</span> </a> </li>
+                    <li> <a href="#"> <span>服装饰品</span> <img src="image/life2.jpg" class="nall"/> <span>休闲风</span> <span>｜ 运动装</span> <span>｜ 甜美风</span> <span>｜ 秋冬款</span> <span>｜ 猫咪配饰</span> </a> </li>
+                    <li> <a href="#"> <span>猫咪住所</span> <img src="image/life3.jpg" class="nall"/> <span>棉窝</span> <span>｜ 毯子/ 垫子</span> <span>｜ 家居</span> <span>｜ 猫笼</span> </a> </li>
+                    <li>
+                        <a href="#">
+                            <span>出行用品</span>
+                            <img src="image/life4.jpg" alt="" class="nall"/>
+                            <span>外出餐具</span>
+                            <span>｜ 猫咪牵引</span>
+                            <span>｜ 外出用品</span>
+                            <span>｜ 防走丢</span>
+                        </a> 
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li> <a href="#">猫咪玩具</a><i class="iconfont">&#xe648;</i>
+                <div class="slide-list">
+                  <ul>
+                    <li> 
+                        <a href="#">
+                            <span>逗猫棒</span>
+                            <img src="image/toy1.jpg" class="nall"/> 
+                            <span>羽毛</span>
+                            <span>｜ 兔毛</span>
+                            <span>｜ 毛绒</span>
+                            <span>｜ 丝带</span>
+                            <span>｜ 其他</span>
+                        </a>
+                    </li>
+                    <li> 
+                        <a href="#">
+                            <span>磨爪玩具</span>
+                            <img src="image/toy2.jpg" class="nall"/>
+                            <span>极速运动</span> 
+                            <span>｜ 瓦楞纸</span>
+                            <span>｜ 剑麻</span>
+                            <span>｜ 绒布</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>猫爬架</span> 
+                            <img src="image/toy3.jpg" class="nall"/>
+                            <span>单层</span>
+                            <span>｜ 双层</span>
+                            <span>｜ 三层</span>
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>休闲玩具</span>
+                            <img src="image/toy4.jpg" class="nall"/>
+                            <span>猫隧道</span> 
+                            <span>｜ 木天蓼玩具</span>
+                            <span>｜ 电子玩具</span> 
+                            <span>｜ 球类玩具</span>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li> <a href="#">猫咪洗浴</a><i class="iconfont">&#xe648;</i>
+                <div class="slide-list">
+                  <ul>
+                    <li>
+                        <a href="#"> 
+                            <span>日常洗护</span> 
+                            <img src="image/clean1.jpg" alt="" class="nall"/> 
+                            <span>滋养柔顺</span> 
+                            <span>｜ 低敏舒缓</span> 
+                            <span>｜ 免洗干洗</span>
+                            <span>｜ 护毛素</span>
+                        </a>
+                    </li>
+                    <li> 
+                        <a href="#"> 
+                        <span>梳剪工具</span>
+                        <img src="image/clean2.jpg" alt="" class="nall"/> 
+                        <span>针梳</span>
+                        <span>｜ 排梳</span>
+                        <span>｜ 指甲剪</span>
+                        <span>｜ 其他工具</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>洗澡配套</span>
+                            <img src="image/clean3.jpg" alt="" class="nall"/>
+                            <span>吸水毛巾</span>
+                            <span>｜ 洗猫袋</span>
+                            <span>｜ 洗澡刷</span> 
+                            <span>｜ 香水</span>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="adv">
+      <div class="wrap">
+        <div class="adv-aside">
+          <ul>
+            <li class="col row"> <a href="#"><i class="iconfont">&#xe668;</i>
+              <p>保障服务</p>
+              </a> </li>
+            <li class="col row"> <a href="#"><i class="iconfont">&#xe610;</i>
+              <p>企业团购</p>
+              </a> </li>
+            <li class="row"> <a href="#"><i class="iconfont">&#xe8c0;</i>
+              <p>优惠促销</p>
+              </a> </li>
+            <li class="col"> <a href="#"><i class="iconfont">&#xe897;</i>
+              <p>全部订单</p>
+              </a> </li>
+            <li class="col"> <a href="#"><i class="iconfont">&#xe625;</i>
+              <p>联系客服</p>
+              </a> </li>
+            <li> <a href="#"><i class="iconfont">&#xe68f;</i>
+              <p>个人设置</p>
+              </a> </li>
+          </ul>
+        </div>
+        <div class="adv-img"> <a href="#"><img src="image/guanggao1.jpg" height="170" alt=""></a> </div>
+        <div class="adv-img"> <a href="#"><img src="image/guanggao3.jpg" height="170" alt=""></a> </div>
+        <div class="adv-img"> <a href="#"><img src="image/guanggao2.jpg" height="170" alt=""></a> </div>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="wrap">
+        <div class="corn">
+          <h2 class="title">猫咪主粮 <a href="#" class="more">查看全部<i class="iconfont">&#xe602;</i></a> </h2>
+          <div class="corn-box">
+            <div class="items1 items2">
+                <img src="image/zhuliang1.jpg" alt="" class="goods"/>
+            </div>
+            <div class="items1">
+             <a href="#"> 
+              <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+             </a> 
+            </div>
+            <div class="items1">
+                <a href="#">
+                 <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+                 <p class="goodsname1"> 美国原装进口百利猫粮</p>
+                 <p class="desc1">中国B2C平台合作伙伴</p>
+                 <p class="price1">448.00 <del>628.00</del></p>
+                </a>
+            </div>
+            <div class="items1">
+                <a href="#">
+                    <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+                    <p class="goodsname1"> 美国原装进口百利猫粮</p>
+                    <p class="desc1">中国B2C平台合作伙伴</p>
+                    <p class="price1">448.00 <del>628.00</del></p>
+                </a> 
+            </div>
+            <div class="items1">
+                <a href="#"> 
+                    <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+                    <p class="goodsname1"> 美国原装进口百利猫粮</p>
+                    <p class="desc1">中国B2C平台合作伙伴</p>
+                    <p class="price1">448.00 <del>628.00</del></p>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="wrap">
+        <div class="corn">
+          <h2 class="title">猫咪零食 <a href="#" class="more">查看全部<i class="iconfont">&#xe602;</i></a> </h2>
+          <div class="corn-box">
+            <div class="items1 items2"> <img src="image/zuobiantu2.jpg" alt="" class="goods"/> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="wrap">
+        <div class="corn">
+          <h2 class="title">医疗护理 <a href="#" class="more">查看全部<i class="iconfont">&#xe602;</i></a> </h2>
+          <div class="corn-box">
+            <div class="items1 items2"> <img src="image/zuobiantu3.jpg" alt="" class="goods"/> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="wrap">
+        <div class="corn">
+          <h2 class="title">保健营养 <a href="#" class="more">查看全部<i class="iconfont">&#xe602;</i></a> </h2>
+          <div class="corn-box">
+            <div class="items1 items2"> <img src="image/zuobiantu4.jpg" alt="" class="goods"/> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="wrap">
+        <div class="corn">
+          <h2 class="title">猫砂猫厕 <a href="#" class="more">查看全部<i class="iconfont">&#xe602;</i></a> </h2>
+          <div class="corn-box">
+            <div class="items1 items2">
+                <img src="image/zuobiantu5.jpg" alt="" class="goods"/>
+            </div>
+            <div class="items1">
+              <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> 
+            </div>
+            <div class="items1"> 
+              <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> 
+            </div>
+            <div class="items1"> 
+              <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> 
+            </div>
+            <div class="items1"> 
+              <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="wrap">
+        <div class="corn">
+          <h2 class="title">生活日用 <a href="#" class="more">查看全部<i class="iconfont">&#xe602;</i></a> </h2>
+          <div class="corn-box">
+            <div class="items1 items2"> <img src="image/zuobiantu6.jpg" alt="" class="goods"/> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="wrap">
+        <div class="corn">
+          <h2 class="title">猫咪玩具 <a href="#" class="more">查看全部<i class="iconfont">&#xe602;</i></a> </h2>
+          <div class="corn-box">
+            <div class="items1 items2"> <img src="image/zuobiantu7.jpg" alt="" class="goods"/> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+            <div class="items1"> <a href="#"> <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+              <p class="goodsname1"> 美国原装进口百利猫粮</p>
+              <p class="desc1">中国B2C平台合作伙伴</p>
+              <p class="price1">448.00 <del>628.00</del></p>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="wrap">
+        <div class="corn">
+          <h2 class="title">猫咪洗浴
+              <a href="#" class="more">
+                  查看全部
+              <i class="iconfont">&#xe602;</i>
+              </a>
+          </h2>
+          <div class="corn-box">
+            <div class="items1 items2">
+                <img src="image/zuobiantu8.jpg" alt="" class="goods"/>
+            </div>
+            <div class="items1">
+              <a href="#">
+                  <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+                  <p class="goodsname1"> 美国原装进口百利猫粮</p>
+                  <p class="desc1">中国B2C平台合作伙伴</p>
+                  <p class="price1">448.00 <del>628.00</del></p>
+              </a> 
+            </div>
+            <div class="items1">
+              <a href="#">
+                  <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+                  <p class="goodsname1"> 美国原装进口百利猫粮</p>
+                  <p class="desc1">中国B2C平台合作伙伴</p>
+                  <p class="price1">448.00 <del>628.00</del></p>
+              </a> 
+            </div>
+            <div class="items1"> 
+              <a href="#">
+                <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+                <p class="goodsname1"> 美国原装进口百利猫粮</p>
+                <p class="desc1">中国B2C平台合作伙伴</p>
+                <p class="price1">448.00 <del>628.00</del></p>
+              </a>
+            </div>
+            <div class="items1">
+                <a href="#">
+                  <img src="image/zhuliang2.jpg" alt="" class="goods-img1"/>
+                  <p class="goodsname1"> 美国原装进口百利猫粮</p>
+                  <p class="desc1">中国B2C平台合作伙伴</p>
+                  <p class="price1">448.00 <del>628.00</del></p>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer>
+         <div class="container">
+            <div class="col-md-4 footer-left">
+               <h3>
+                   <a href="catme.html">Cat<span>Me</span></a> 
+               </h3>
+               <div class="footer-social-grids">
+                 <ul>
+                    <li><a href="#">邮箱</a></li><br>
+                    <li><em>3368693651@qq.com</em></li><br>
+                    <li><img src="../猫圈/images/wb.jpg" alt="wb" height="60px" width="60px"><a href="#">微博</a></li>
+                    <li><img src="../猫圈/images/gong.jpg" alt="gh"  height="60px" width="60px"><a href="#">微信公众号</a></li>
+                    <li><img src="../猫圈/images/ren.jpg" alt="kf"  height="60px" width="60px"><a href="#">官方客服微信</a></li>
+                 </ul>
+               </div>
+            </div>
+        </div>
+    </footer>
+
+  <script type="text/javascript">
+          $(document).ready(function () {
+              /*
+                  var defaults = {
+                  containerID: 'toTop', // fading element id
+                  containerHoverID: 'toTopHover', // fading element hover id
+                  scrollSpeed: 1200,
+                  easingType: 'linear' 
+                  };
+              */
+
+              $().UItoTop({ easingType: 'easeOutQuart' });
+
+          });
+      </script> 
+  <script type="text/javascript" src="js/move-top.js"></script> 
+  <script type="text/javascript" src="js/easing.js"></script>
+  </body>
+</html>

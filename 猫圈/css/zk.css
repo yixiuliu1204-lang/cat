@@ -1,0 +1,460 @@
+@charset "utf-8";
+/* CSS Document */
+a:hover{
+	color: #DF1619!important;
+	
+}
+a{
+    text-decoration: none!important;
+    color:rgba(71,71,71,1.00);
+}
+
+body {
+    background: #f8f8f8;
+}
+button{
+	background-color: #FFFFFF;
+	border:0;
+}
+button:hover{
+    background-color: #FFFFFF;
+}
+.is-tab{
+	border-bottom-color:#F9F9F9!important; 
+}
+.is-active{
+	color:#EA2023!important;
+}
+.tag.is-lightblue {
+    color: #2d84cc;
+    background: #ebf3fb;
+}
+.ml-10 {
+    margin-left: 1rem;
+}
+.lh-20 {
+    line-height: 2rem;
+}
+.card1 {
+    margin-top: 2rem;
+}
+.card{
+    margin-bottom: 1rem;
+}
+.section {
+   
+   margin-top:2.5rem;
+   padding: 1em 4em 0 2em;	
+  
+ 
+}
+
+.tile{
+	 display: inline-flex!important;
+	flex-wrap: nowrap!important;
+}
+.tile2{
+    margin-top: 20px!important;
+	flex:3;
+}
+.tile3{
+     
+	flex:1;
+}
+
+.fa-15 {
+    font-size: 1.5rem;
+}
+.fa.fa-fire {
+    font-size: 1.2rem;
+    color: red;
+    margin-left: 1rem;
+}
+
+/*header*/
+.header-zk{
+	display: flex!important;
+	position:fixed!important;
+	top:0;
+	width: 100vw;
+	z-index: 999;
+	height:auto;
+}
+.header-zk>.container{
+    flex-direction: column;
+    width:inherit;
+    display: flex;
+ 
+    min-height: 3.25rem;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-menu{
+	display: flex!important;
+}
+.navbar-start,.navbar-end{
+	display: flex;
+	flex: 1 1 1;
+}
+
+.navbar2{
+    margin-left: 0!important;
+}
+
+/*container*/
+.card2{
+	margin-top:1.5rem;
+}
+
+
+.ContentItem-actions{
+    display: inline-flex;
+    
+}
+
+/*卡片*/
+.card-AuthorInfo-1{
+	display: inline-flex;	
+}
+
+/*右侧卡片一*/
+.GlobalWriteV2-navTop{
+    width: inherit;
+    display: inline-flex;
+   
+}
+.GlobalWriteV2-topItem{
+    margin:0 1.5rem 10px;
+}
+.card-header-1{
+	display: flex;
+	
+}
+.card-header-1 .card-header-right a{
+	font-size: 0.6em!important;
+	
+	
+}
+.css-creat-1{
+	display: flex;
+	justify-content:flex-start;
+    align-items: center;
+}
+.css-creat-1 .read-1{
+    justify-content: center;
+    margin-right: 4rem;
+    font-family: 'Raleway', sans-serif;
+    color: #2f2f2f;
+}
+.css-creat-1 .like1{
+   font-family: 'Raleway', sans-serif;
+   color: #2f2f2f; 
+}
+
+
+/*发动态模态框*/
+   .Modal-inner{
+            color: #121212;
+    font-family:"华文新魏";
+    font-size: 15px;
+    -webkit-tap-highlight-color: rgba(18,18,18,0);
+    -webkit-box-direction: normal;
+    background: #fff;
+    border-radius: 2px;
+    overflow: visible;  
+        } 
+        .Modal-content{
+               color: #121212;
+    
+    font-size: 15px;
+   
+    -webkit-box-flex: 1;
+    flex: 1 1;
+    line-height: 1.7;
+    margin-top: 24px;
+    opacity: 1;
+    padding: 0 24px 32px;
+    padding-bottom: 24px; 
+        }
+        .css-1odu5n9{
+    color: #121212;
+    font-size: 15px;
+    line-height: 1.7;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 4px;
+        }
+        .css-kgd9k0{
+    box-sizing: border-box;
+    margin: 0px 0px 16px;
+    min-width: 0px;
+    padding: 0;
+    position: relative;
+    border: 0;
+        } 
+        .css-kgd9k0>textarea{
+            border: 0;
+        }   
+        .css-1yuhvjn{
+    margin-top: 16px;
+        }   
+        .css-1icb6u2{
+    background: #fff;
+    border-radius: 3px;
+    box-sizing: border-box;
+    transition: background .2s,border .2s;
+    padding: 0;
+    position: relative;
+    border: 0px none;
+    min-height: 108px;
+    max-height: 305px;
+    overflow-y: scroll;
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+            
+        }   
+        .css-fbcqx2{
+    line-height: 1.7;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    display: flex;
+        }
+        .css-88f71l{
+    box-sizing: border-box;
+    margin: 2px 0px 0px;
+    min-width: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+        }
+        .css-4cffwv{
+    line-height: 1.7;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+        }
+        .css-1qmc9za{
+    appearance: none;
+    font: inherit;
+    outline: none;
+    margin: 0;
+    display: inline-block;
+    font-size: 14px;
+    background: none;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    height: auto;
+    line-height: inherit;
+    padding: 0;
+    cursor: pointer;
+    color: rgb(68, 68, 68);
+    margin-right: 24px;
+        }
+        
+
+/*右侧卡片二*/
+.tjzz{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+        
+}
+.tjzz1,.tjzz1 .AuthorInfo{
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.tjzz1 button{
+	align-self: flex-end!important;
+	right: 0px;
+}
+.css-change{
+	display: flex;
+	justify-content: center;
+	
+}
+.css-change button{
+    
+
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 99em;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    background: rgba(133,144,166,.1);
+    color: #8590a6;
+    cursor: default;
+    opacity: 0.5;
+}
+    
+.cazx{
+   
+    box-sizing: border-box;
+    margin: 8px 0 8px;
+    min-width: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #934141;
+    color: rgb(5, 109, 232);
+    border-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+    width: 100%;
+    
+}
+.AuthorInfo-content{
+    margin-left: 1em;
+}
+
+.AuthorInfo a img{
+    color: inherit;
+    background: #fff;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 38px;
+    height: 38px;
+    border-radius: 2px;
+}
+/*右侧卡片四*/
+
+.Banner-adTag {
+    background-color: #000;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    bottom: 30px;
+    color: #ebebeb;
+    font-size: 12px;
+    line-height: 27px;
+    opacity: .5;
+    position:relative;
+    left: 5px;
+    text-align: center;
+    width: 45px;
+    z-index: 1;
+}
+
+
+.footer-left1{
+   
+    padding-left: 5px;
+    
+}
+.footer-left1 h3 a{
+    font-weight: 500;
+    font-size: 1.9em;
+    font-family: 'Raleway', sans-serif;
+    color: #2f2f2f;
+}
+.footer-left1 h3 a span{
+     font-size: .9em;
+}
+.footer-left1 .footer-social-grids .fu {
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer-left1 .footer-social-grids .fu div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+}
+.footer-left1 .footer-social-grids{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.btn-lg{
+    font-family: 'Raleway', sans-serif;
+    color: #2f2f2f;
+    padding: 0!important;
+    font-size: 2em!important;
+    
+}
+.GlobalSideBar-navText{
+    font-size: 1.3em;
+}
+
+.input11{
+    width: 15rem!important;
+}
+.button11{
+    background-color: #E31114!important;
+    color:#fff!important;
+}
+.img11{
+    bottom: 1em!important;}
+
+.a1{
+text-decoration: none!important;
+}
+
+.span1{
+    display: inline-flex!important;
+    align-items: center!important;
+}
+
+.p1{
+    font-size: 0.3rem!important;
+}
+.span2{
+    border-radius: 30px!important;
+}
+.span3{
+    margin-left: 2em!important;
+    border-radius: 30px!important;
+}
+
+.p2{
+    font-size: 1.5em!important;
+    float: right;border: rgba(255,92,95,1.00) solid!important;
+    right: 3em!important;
+    border-radius: 50px!important;
+    padding:0 .5em!important;
+}
+
+.fade1{
+    top: 10%!important;
+}
+.textarea1{
+   height: 38px!important;
+   width: 100%!important;
+}
+.textarea2{
+    height: 10em!important;
+    width: 100%!important;
+}
+.textarea3{
+    height: 6em!important;
+    width: 100%!important;
+}
+.bth11{
+    background-color: #EF474A!important;
+}
+.bth3{
+    boder:2px!important;
+}
